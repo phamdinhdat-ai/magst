@@ -1,0 +1,200 @@
+Hệ thống quản lý, phân tích và chia sẻ dữ liệu y sinh
+
+## Hệ thống quản lý, phân tích và chia sẻ dữ liệu y sinh ##
+Dữ liệu
+
+## 3.500+ TB ##
+CPU
+
+## 1.000+ core ##
+RAM
+
+## Tổng quan ##
+Các dự án dữ liệu lớn hiện nay (lên đến cỡ petabyte hay thậm chí exabyte) trong nhiều lĩnh vực chẳng hạn như y sinh học đã và đang đặt ra nhiều thách thức về mặt lưu trữ, quản lý, phân tích và xử lý dữ liệu. Ngoài ra với xu hướng dữ liệu mở, khoa học mở, và nền tảng mở ngày nay, việc chia sẻ và chuẩn hóa nhiều nguồn dữ liệu đa dạng và không đồng nhất đồng thời đảm bảo tính bảo mật dữ liệu cũng đặt ra nhiều thách thức lớn cần phải giải quyết. Việc xây dựng các hệ thống quản lý, phân tích, và chia sẻ dữ liệu đảm bảo tính khả chuyển (portability), có thể mở rộng (scalability), và có thể tái tạo (reproducibility) đang trở nên cấp thiết và đặc biệt được chú trọng trong nhiều dự án y sinh học lớn gần đây. Dự án 1000 hệ gen người Việt và các dự án ứng dụng khác đã, đang và sẽ được triển khai tại VinBigData cũng đặt ra những thách thức tương tự và việc xây dựng một hệ thống như vậy trở nên đặc biệt quan trọng nhằm đảm bảo sự hiệu quả lâu dài của dự án.
+Mục tiêu chung của dự án này là xây dựng một hệ thống quản lý, phân tích và chia sẻ dữ liệu lớn (Management, Analysis, and Sharing of large datasets – MASH), trước mắt tập trung vào dữ liệu y tế và sau đó mở rộng ra các nguồn dữ liệu khác. MASH cần phải (1) có khả năng làm việc với các mô hình dữ liệu (data models) của từng dự án cũng như có khả năng tích hợp với các quy trình phân tích (analysis workflows) của các dự án đó; (2) được thiết kế nhằm thích ứng một cách linh hoạt nhất với các thay đổi về mô hình dữ liệu và quy trình phân tích của dự án; (3) cung cấp các thành phần giao diện (front-end) cho phép nhập/xuất/hiển thị dữ liệu phù hợp với từng dự án cũng như các thành phần nền tảng (back-end) cho phép đánh chỉ mục/lưu trữ/quản lý/bảo mật dữ liệu với số lượng và kích thước lớn, trong đó từng file có thể lên đến terabyte và tổng dung lượng có thể lên đến petabyte hay thậm chí exabyte; (4) được thực hiện (implement) dựa trên các công nghệ mã nguồn mở tiên tiến nhất hiện nay, đảm bảo tính khả chuyển, có thể mở rộng, và có thể tái tạo trong việc quản lý, phân tích dữ liệu lớn; và (5) có thể triển khai (deploy) trên hệ thống máy tính của doanh nghiệp (on-premise) hoặc điện toán đám mây (cloud-based).
+MASH giúp cho việc quản lý, phân tích, chia sẻ, khám phá, trực quan hóa dữ liệu một cách dễ dàng, thuận tiện và nhanh chóng. MASH cho phép người dùng (các nhà nghiên cứu tin sinh, y sinh, khoa học dữ liệu, bác sỹ, sinh viên, …) khai thác, tìm kiếm, và phân tích dữ liệu ngay trên trang web của hệ thống, qua đó người dùng tiết kiệm được thời gian và chi phí để thực hiện nghiên cứu. Ngoài ra người dùng cũng có thể tải lên hệ thống những dữ liệu mà họ có, tận dụng những tài nguyên và dịch vụ của hệ thống để thực hiện phân tích, cũng như chia sẻ dữ liệu tới cộng đồng. Thông qua MASH, người dùng có thể thực hiện các phân tích chuyên môn qua những tính năng đã được cung cấp sẵn mà không cần biết tới các kỹ thuật lập trình, trực quan hóa và phân tích dữ liệu chuyên sâu. MASH được phát triển và triển khai với nhiều lớp bảo mật, giúp hệ thống đảm bảo được tính toàn vẹn và tính bảo mật của dữ liệu cũng như đảm bảo riêng tư người dùng.
+
+## Đối tác chiến lược ##
+Các dự án nền tảng khác
+
+
+Title: Nhận diện tiềm năng trí thông minh ngôn ngữ của con
+URL: https://genestory.ai/home/home/2024/04/02/tri-thong-minh-ngon-ngu/
+Description: Con là người có khả năng thuyết trình trước đám đông, con học tốt các môn về ngôn ngữ. Đây có phải là biểu hiện của trí thông minh ngôn ngữ?
+
+
+## Introduction ##
+Nhận diện tiềm năng trí thông minh ngôn ngữ của con
+
+## Nhận diện tiềm năng trí thông minh ngôn ngữ của con ##
+
+## Danh mục nội dung ##
+Ra đời từ năm 1983, thuyết Đa trí Thông minh (Multiple Intelligences) của giáo sư Howard Gardner (thuộc trường Đại học Harvard) đã trở thành một trong những tư tưởng tiến bộ có ảnh hưởng sâu sắc đến nền giáo dục hiện đại. Theo học thuyết này, trí thông minh không còn giới hạn ở khả năng tính toán nhanh như chúng ta thường biết, mà mở rộng ra thành 8 loại hình khác nhau, trong đó có trí thông minh ngôn ngữ.
+Như chúng ta đều thấy, phan lớn mọi người có thể đọc, viết thành thạo ngôn ngữ của mình nhưng không phải ai cũng có thể là một nhà hùng biện, nhà báo hay luật sư. Sự khác biệt này chính là được tạo ra bởi trí thông minh ngôn ngữ. Cùng đọc bài viết dưới đây để hiểu thêm về loại hình trí thông minh đặc biệt này.
+
+## Trí thông minh ngôn ngữ là gì? ##
+Trí thông minh ngôn ngữ là khả năng nhận thức và xử lý thông tin liên quan đến ngôn ngữ như từ vựng, cú pháp, âm thanh, nhịp điệu, sự biến đổi và độ dài của từ. Nói cách khác đó là khả năng nói và viết, khả năng học và sử dụng ngôn ngữ hiệu quả để đạt được mục tiêu. Người có loại hình trí thông minh này thường có sự tự tin nhất định, không biểu thị sự e dè, ngại ngùng trước đám đông. Họ sẵn sàng thể hiện ý kiến cá nhân một cách rạch ròi, rành mạch. Đặc biệt, những người sở hữu trí thông minh ngôn ngữ có xu hướng sở hữu một trí nhớ tốt đối với các chi tiết, thông tin, sự kiện mà họ đã được nghe, đọc hoặc trải qua…
+
+## Trí thông minh ngôn ngữ được đánh giá như thế nào? ##
+Theo báo cáo giải mã gen của GeneStory chỉ ra, trí thông minh ngôn ngữ có thể được đo lường bằng các chỉ số:
+## Biểu hiện của trẻ có
+trí thông minh ngôn ngữ ##
+Nhiều phụ huynh cho rằng trí thông minh ngôn ngữ chính là khả năng học ngoại ngữ hay khả năng thuyết trình trước đám đông. Tuy nhiên, biểu hiện của trí thông minh ngôn ngữ thực ra rất đa dạng và dễ dàng nhận thấy.
+Trí thông minh ngôn ngữ thường được thể hiện qua sự nhạy cảm với ngôn ngữ (bao gồm cả ngôn ngữ nói và viết), năng lực lĩnh hội và sử dụng ngôn ngữ để đạt được những mục đích nhất định đồng thời, phân tích thông tin, giải quyết vấn đề và tạo ra các sản phẩm bằng ngôn ngữ nói và viết (chẳng hạn như giao tiếp, sáng tác văn học, hùng biện, diễn thuyết,…).
+Trong sinh hoạt hàng ngày, cha mẹ có thể nhận thấy trí thông minh ngôn ngữ thông qua các biểu hiện ở trẻ như:
+## Người nổi tiếng có trí thông minh ngôn ngữ vượt trội ##
+## Trí thông minh ngôn ngữ có di truyền không? ##
+Các nghiên cứu khoa học chỉ ra, các loại hình trí thông minh, trong đó bao gồm cả trí thông minh ngôn ngữ cũng chịu ảnh hưởng đáng kể từ gen. Một trong các gen nổi bật phải kể đến như:
+Tuy nhiên, điều này không khẳng định rằng trẻ mang gen có khuynh hướng vượt trội về trí thông minh ngôn ngữ đều chắc chắn trở thành nhà văn, nhà báo, diễn giả… hay những trẻ có chỉ số thông minh ngôn ngữ bình thường thì không thể làm những nghề trên. Ngoài gen còn có các yếu tố khác ảnh hưởng tới lựa chọn tương lai của các con như định hướng của gia đình, môi trường sống hay sở thích của các con. Bố mẹ có thể lựa chọn giải mã gen để biết trước “hạt mầm” tiềm năng trong con, từ đó dễ dàng định hướng nghề nghiệp sau này. Một môi trường giáo dục đúng hướng, thuận theo gen sẽ mở ra nhiều cơ hội hơn cho con phát triển bản thân.
+
+## Bài viết liên quan ##
+Những lưu ý để sử dụng thuốc một cách an toàn
+## Những lưu ý để sử dụng thuốc một cách an toàn ##
+Hiện nay khi gặp 1 số triệu chứng nhẹ nhiều người thường chủ quan tự ý ra hiệu thuốc mua thuốc uống, đây là thói
+Ung thư đại trực tràng: Đứng thứ 4 về số ca mắc mới tại Việt Nam
+## Ung thư đại trực tràng: Đứng thứ 4 về số ca mắc mới tại Việt Nam ##
+Thống kê năm 2022 của GLOBOCAN chỉ ra ung thư đại – trực tràng là một trong những bệnh ung thư phổ biến trên thế
+Những lầm tưởng về bệnh gout
+## Những lầm tưởng về bệnh gout ##
+Bệnh gout (gút) hay còn gọi là thống phong là bệnh lý viêm khớp phổ biến gây đau dữ dội, sưng và cứng khớp. Tuy
+Tại sao người Việt Nam tích cực và vững vàng trong mọi hoàn cảnh
+## Tại sao người Việt Nam tích cực và vững vàng trong mọi hoàn cảnh ##
+Tinh thần tích cực, vững vàng của Người Việt Nam Những ngày qua, chúng ta không khỏi đau lòng khi nhìn thấy những hình ảnh,
+Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh
+## Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh ##
+Cha mẹ hiện đại chắc hẳn đa phần đã biết tới khái niệm “8 loại hình trí thông minh”, giải thích cho việc không phải
+
+Title: Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh – GeneStory
+URL: https://genestory.ai/home/home/2024/04/11/giai-ma-gen-giup-danh-gia-tiem-nang-voi-8-loai-hinh-tri-thong-minh/
+Description: Cha mẹ hiện đại chắc hẳn đa phần đã biết tới khái niệm “8 loại hình trí thông minh”, giải thích cho việc không phải cứ thông minh thì đồng nghĩa với IQ cao hay điểm toán cao chót vót. Giáo dục hiện đại đã xem xét khái niệm “thông minh” trên những phạm trù
+
+
+## Introduction ##
+Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh
+
+## Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh ##
+
+## Danh mục nội dung ##
+Cha mẹ hiện đại chắc hẳn đa phần đã biết tới khái niệm “8 loại hình trí thông minh”, giải thích cho việc không phải cứ thông minh thì đồng nghĩa với IQ cao hay điểm toán cao chót vót. Giáo dục hiện đại đã xem xét khái niệm “thông minh” trên những phạm trù rộng hơn rất nhiều. Khả năng chơi thể thao vượt trội, hát hay, múa đẹp, khả năng thấu cảm với người khác hoặc thấu hiểu chính mình… cũng được coi là biểu hiện của trí thông minh.
+
+## Giải mã gen giúp đánh giá tiềm năng với 8 loại hình trí thông minh ##
+Với những nghiên cứu chuyên sâu về các đặc điểm trí thông minh và gen, các báo cáo giải mã gen phiên bản mới nhất của GeneStory đánh giá mức độ tiềm năng với 8 loại hình trí thông minh của một người liên quan tới 23 tính trạng cụ thể. Những dữ liệu khoa học từ gen này giúp cha mẹ mở khóa vũ trụ bé yêu, mang đến sự thấu hiểu cũng như cơ sở để đối chiếu và đánh giá tổng quan thế mạnh tiềm năng của con.
+
+## Giải mã gen giúp phụ huynh trả lời những câu hỏi ##
+– Con rất rụt rè trong giao tiếp với người lạ, có phải EQ của con bị hạn chế không?
+– Con có khả năng “nhại” lại rất chuẩn những âm thanh dù mới được nghe một lần, vậy là con có năng lực về ngôn ngữ, hay âm nhạc?
+– Tôi thấy con học chơi thể thao khá nhanh, làm sao tôi biết con có “trí thông minh thể chất”?
+…
+Hãy cùng theo dõi những bài viết về chủ đề “8 ẩn số tiềm năng từ gen” này trên fanpage của GeneStory để có thể tìm thấy những câu trả lời cho riêng mình, đồng thời hiểu hơn về những tiềm năng “đích thực” trong con nhé.
+
+
+Một trong những trụ cột không thể thiếu để xây dựng một nền Y học chính xác là bộ gen tham chiếu. Trải qua một lịch sử hơn 13 năm được tổng kết qua bài viết Bộ gen tham chiếu đã được xây dựng như thế nào?, quá trình hoàn thiện bộ gen tham chiếu của loài người đã đạt một số thành tựu nhất định. Với sự tiến bộ không ngừng nghỉ của khoa học – công nghệ, bộ gen tham chiếu liên tục được cập nhật theo hướng ngày càng chính xác hơn, tổng hợp được nhiều thông tin hơn để biểu diễn khái quát nhất cho bộ gen của loài người. Nhưng cũng vì quá trình cập nhật này, đã sinh ra không ít các phiên bản khác nhau bộ gen tham chiếu. Điều này có thể không ảnh hưởng đến một số phân tích hoặc có thể gây ra kết quả phân tích sai khác lớn trong lĩnh vực tin sinh học. Bài viết này sẽ góp phần mở ra cái nhìn tổng quan về bộ gen tham chiếu và sự khác nhau giữa các phiên bản thông dụng.
+
+“Hình dáng” của gen tham chiếu
+Gen tham chiếu (tiếng Anh: Reference Genome hoặc Reference Assembly) là một cơ sở dữ liệu dạng số của chuỗi axit nucleic, được lắp ráp (assembly) bởi các nhà khoa học, xem như một tập hợp gen của một cá thể sinh vật lý tưởng cho một loài. Vì được lắp ráp từ chuỗi DNA của một nhóm cá thể tham gia thí nghiệm, gen tham chiếu không hoàn toàn biểu diễn gen của một cá thể nào. Thay vào đó, gen tham chiếu cung cấp một thể khảm đơn bội của các chuỗi DNA khác nhau từ mỗi người tham gia thí nghiệm.
+
+Định dạng đơn giản nhất của một bộ gen tham chiếu là một tệp fasta chứa các chuỗi axit nucleic hoặc axit amin, được chia làm nhiều “đoạn liên tiếp” (contigs, thường là các Nhiễm Sắc thể). Tuy nhiên, thông tin này chỉ đủ cho một loại phân tích là bắt cặp trình tự (alignment). Các loại tệp khác – tệp chú giải gen (genome annotation) GTF hoặc GFF cho phép nhiều loại phân tích xuôi dòng (downstream analysis) hơn vì chúng thể hiện được các thuộc tính của gen như toạ độ vùng phiên mã, exon, intron,…
+
+Một số phiên bản bộ gen tham chiếu
+Hiện nay, các phân tích, bài báo đã xuất bản trong lĩnh vực sinh học nghiên cứu liên quan đến gen người hoặc trong lĩnh vực tin sinh học phần lớn sử dụng hai phiên bản chính là hg19 (lấy tên khác là GRCh37 – Genome Reference Consortium Human Build 37, đặt tên theo lần họp thứ 37 của hội nghị này) hoặc hg38 (GRCh38). Tuy nhiên, với mỗi phiên bản, lại có rất nhiều phụ bản, được phát hành bởi các đơn vị nghiên cứu khác nhau.
+
+Các phụ bản của hg19
+GRCh37 (NCBI)
+GRCh37, tên đầy đủ là Genome Reference Consortium Human Build 37, được đặt theo tên lần họp thứ 37 của hội nghị Genome Reference Consortium. Bản chính thức được xây dụng bởi Genome Reference Consortium, công bố vào ngày 27/02/2009. Tệp chứa bộ gen tham chiếu chính thức được phát hành và quản lý bởi NCBI (National Center for Biotechnology Information).
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên NC_00000a.b với a tương ứng từ 1 tới 22 và b là số định danh của phiên bản. Tương tự nhiễm sắc thể X, Y lần lượt có a=23, a=24.
+
+Hiện tại, phụ bản này được NCBI cập nhật tới lần 13, tên tệp tin là GCF_000001405.25_GRCh37.p13_genomic.fna.gz với MD5sum 46e212080d30b1a24abec3eab36dbacd.
+
+Nguồn chính thức:
+
+Các lần cập nhật ở đường dẫn này.
+
+Tệp chứa bộ gen tham chiếu FASTA
+
+Thư mục chứa các tệp liên quan GCF_000001405.25_GRCh37.p13
+
+b37
+Viện nghiên cứu Broad tạo ra một bộ gen tham chiếu mới dựa trên GRCh37 của NCBI, được đặt tên là b37. So với bản gốc, b37 có một vài thay đổi như tên các đoạn liên tiếp, và những bases có độ tin cậy thấp được chuyển thành kí tự N theo mã IUPAC.
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên tương ứng từ 1 tới 22. Nhiễm sắc thể X, Y lần lượt là X, Y.
+
+Nguồn chính thức:
+
+FTP Broad bundle
+
+humanG1Kv37
+Đây là phụ bản được sử dụng trong quá trình phân tích của 1000 Genomes Project. Phụ bản humanG1Kv37 tương đương với phiên bản b37 nhưng không chứa các đoạn mồi (decoy) cho gammaherpesvirus 4 ở người (NC_007605).
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên tương ứng từ 1 tới 22. Nhiễm sắc thể X, Y lần lượt là X, Y.
+
+Nguồn chính thức:
+
+Tệp chứa bộ gen tham chiếu FASTA
+
+Thư mục chứa các tệp liên quan phase2_reference_assembly_sequence
+
+hg19 (UCSC)
+Trường đại học California ở Santa Cruz (UCSC) tạo ra một phụ bản hg19 dựa trên GRCh37. Phụ bản có tệp gen tham chiếu là hg19.fa.gz với MD5sum: 806c02398f5ac5da8ffd6da2d1d5d1a9.
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên tương ứng từ chr1 tới chr22. Nhiễm sắc thể X, Y lần lượt là chrX, chrY.
+
+Nguồn chính thức:
+
+Tệp chứa bộ gen tham chiếu FASTA
+
+Thư mục chứa các tệp liên quan Golden Path
+
+Các phụ bản của hg38
+GRCh38 (NCBI)
+GRCh38, tên đầy đủ là Genome Reference Consortium Human Build 38, được đặt theo tên lần họp thứ 38 của hội nghị Genome Reference Consortium. Bản chính thức được xây dụng bởi Genome Reference Consortium, công bố vào ngày 28/02/2019. Tệp chứa bộ gen tham chiếu chính thức được phát hành và quản lý bởi NCBI (National Center for Biotechnology Information). Hiện tại, phiên bản này được NCBI cập nhật tới lần 13, tên tệp tin là GCA_000001405.28_GRCh38.p13_genomic.fna.gzvới MD5sum: f28b7146e0f30efa58447eceb32620a3.
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên CM000a.2 với a tương ứng từ 663 tới 684. Tương tự nhiễm sắc thể X, Y lần lượt có a=685, a=686.
+
+Nguồn chính thức:
+
+Các lần cập nhật ở đường dẫn này. Tệp chứa bộ gen tham chiếu FASTA
+
+Thư mục chứa các tệp liên quan GCA_000001405.28_GRCh38.p13
+
+GRCh38 Resource bundle (Broad Institute)
+Phụ bản này ngoài hệ gen tham chiếu, còn bao gồm những cơ sở dữ liệu tiêu chuẩn để phân tích dữ liệu giải trình gen người thông qua GATK – Genome Analysis Toolkit. Hiện nay Viện nghiên cứu Broad đang góp phần đưa GRCh38/hg38 thành tiêu chuẩn phân tích gen trên thế giới thông qua bộ sở dữ liệu tiêu chuẩn này. Dự án The International Genome Sample Resource (IGSR) cũng sử dụng bộ dữ liệu này làm cơ sở để phân tích trong Giai đoạn 3.
+
+Trong phụ bản này, tên các nhiễm sắc thể số 1 tới 22 được đánh tên tương ứng từ chr1 tới chr22. Nhiễm sắc thể X, Y lần lượt là chrX, chrY.
+
+Nguồn chính thức:
+
+Google Cloud Resource bundle
+
+So sánh chi tiết
+Ngoài việc thay đổi lớn về tọa độ, điểm làm hg38 trở nên hữu ích khi phân tích so với hg19 là số lượng lớn các vùng thay thế (alternate regions). Các vùng thay thế này mang tên dạng “*_alt”, miêu tả những chuỗi trình tự tồn tại phổ biến trong quần thể loài người nhưng lại có khác biệt tương đối lớn với trình tự trên hg38. Việc xuất hiện những vùng thay thế này đã giúp việc phân tích các quần thể khác nhau trên thế giới trở nên chính xác hơn.
+
+
+Ngoài ra, còn có sự khác biệt ở tên của các đoạn liên tiếp, biểu diễn vùng tâm động (centromere) và gen ti thể (mitochondrial genome).
+
+Ở trong bài viết này, chúng tôi trực tiếp so sánh các đoạn liên tiếp giữa các phiên bản bộ gen tham chiếu thông qua tính giá trị tổng kiểm của mã hóa md5 (md5checksum). Trước tiên, chúng tôi đã tiến hành chuẩn hóa cách biểu diễn các trình tự trong các phụ bản và phiên bản khác nhau:
+
+Chuyển toàn bộ chữ in thường thành in hoa (chữ in thường thể hiện vùng repetitive)
+
+Chuyển toàn bộ kí tự khác A, T, G, C, N thành N. Lý do vì một số phiên bản có thể sử dụng kí hiệu của IUPAC.
+
+Kết quả được miêu tả trong tệp sau: 
+
+Open genome_versions_comparision_2.csv
+
+Từ kết quả trên, chúng tôi rút ra một số quan sát:
+
+Phụ bản humanG1Kv37 có thêm đoạn mồi tổng hợp có tên “hs37d5” so với phụ bản b37 của Broad Institute.
+
+Cả 2 phiên bản GRCh37 và GRCh38 của NCBI đều không chứa chrEBV hay NC_007605 (gammaherpesvirus 4 ở người) so với các phụ bản khác. Ngoài ra, trong những “đoạn liên tiếp chính” (primary contigs), các phiên bản do NCBI phát hành này cũng khác hầu hết các phụ bản ở nhiễm sắc thể Y.
+
+Phụ bản hg19 của UCSC khác các phụ bản khác của hg19 ở gen ti thể M, trong khi lại giống nhiễm sắc thể Y với GRCh37 của NCBI.
+
+Ngoài ra trong phiên bản GRCh38, phụ bản của NCBI khác với Broad Institute ở nhiễm sắc thể số 5, số 14, số 19, số 21, số 22. Phân tich cụ thể cho thấy các khác biệt này chủ yếu nằm ở kí hiệu của chuỗi trên vùng tâm động.
+
+Bình luận mở rộng
+Một kết quả khá bất ngờ cho thấy mặc dù cùng phiên bản, nhưng mỗi phụ bản phát hành bởi một đơn vị nghiên cứu khác nhau lại không hoàn toàn trùng khớp. Điều này đặc biệt ảnh hưởng đến khả năng tái lập kết quả giữa các nghiên cứu khác nhau, nhất là với những biến dị hiếm gặp trên những vùng đặc biệt.
+
+Thêm vào đó, mặc dù phiên bản mới hơn của bộ gen tham chiếu là GRCh38 đã được cập nhật từ năm 2013, nhưng cho đến nay vẫn rất nhiều phân tích sử dụng phiên bản cũ hơn là GRCh37 (phát hành năm 2009). Nguyên nhân chủ yếu của việc này do khá nhiều công cụ, bộ cơ sở dữ liệu vẫn chưa cập nhật, nên các phân tích vẫn phải sử dụng bộ gen tham chiếu cũ. Các phân tích sử dụng phiên bản khác nhau có sự khác biệt đáng kể về toạ độ, cũng như độ tin cậy của phân tích, điều này cũng gây ra không ít khó khăn cho việc thống nhất, chia sẻ kết quả. Điều này, bên cạnh lý do về công nghệ, cũng là một phần lý do khiến GRC vẫn chưa cập nhật phiên bản tiếp theo của hệ gen tham chiếu ở người.
+
+Tại Việt Nam, từ năm 2018, khi bắt đầu những bước đầu tiên của dự án giải mã 1000 hệ gen người Việt, viện nghiên cứu dữ liệu lớn VinBigdata qua nghiên cứu kĩ lưỡng, đã tin tưởng và sử dụng bộ gen tham chiếu GRCh38 được đóng gói trong Resource bundle của Broad Institute. Qua đó, dự án có thể tận dụng được những bộ cơ sở dữ liệu và công cụ mới nhất, đồng thời đảm bảo được mức độ tin cậy cao với dữ liệu đầu ra.

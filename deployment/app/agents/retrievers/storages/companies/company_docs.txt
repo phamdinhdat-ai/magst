@@ -1,0 +1,336 @@
+opic: Địa chỉ và liên hệ
+Summary: Cách thức liên hệ, văn phòng, email, số điện thoại, website, các kênh liên lạc khác của công ty, địa chỉ, tên của công ty
+Description: Công ty GeneStory:
+- Địa chỉ: Tòa nhà văn phòng Symphony, Đường Chu Huy Mân, KĐT sinh thái Vinhomes Riverside, Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội, Việt Nam
+- Văn phòng liên hệ: Tầng 8, Toà nhà Century, Khu đô thị Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội
+- Email: support@genestory.ai
+- Hotline: 1800 888 680
+- Website: [GeneStory](https://genestory.ai)
+Embedded Link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.868256076736!2d105.86583201520843!3d20.99791748601518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad64eb34861b%3A0xa1fdbb5521b6e288!2sBig%20Data%20Institute%20-%20Vingroup!5e0!3m2!1svi!2s!4v1590487059318!5m2!1svi!2s
+
+Topic: Tài khoản GeneStory
+Summary: quên mật khẩu tài khoản, khôi phục mật khẩu, không thể truy cập tài khoản
+Description: Nếu bạn quên mật khẩu của mình, bạn có thể sử dụng tính năng khôi phục mật khẩu của chúng tôi. Bạn chỉ cần đăng nhập vào tài khoản của mình và sử dụng dịch vụ khôi phục mật khẩu. Chúng tôi sẽ gửi cho bạn thông tin khôi phục mật khẩu qua email hoặc số điện thoại liên kết với tài khoản của bạn. Nhưng nếu bạn không thể truy cập vào tài khoản của mình, bạn hãy liên hệ ngay với chúng tôi thông qua email support@genestory.ai hoặc đường dây hỗ trợ khách hàng của chúng tôi để được hỗ trợ kịp thời.
+Embedded Link: No link provided
+
+Topic: Tài khoản GeneStory
+Summary: Các bước đăng ký tài khoản khách hàng
+Description: Mở tài khoản GeneStory giúp bạn tiếp cận nhiều nội dung khoa học và công nghệ thông tin về chủ đề gene như gen và di truyền. Bạn có thể đăng ký và nhận bản tin để cập nhật các tin tức, nghiên cứu mới nhất và cơ hội hợp tác nghiên cứu từ GeneStory.
+
+Các bước đăng ký tài khoản:
+Bước 1: Truy cập trang web GeneStory và nhấp vào nút "Đăng ký".
+Bước 2: Nhập số điện thoại và chọn đồng ý với các điều khoản dịch vụ.
+Bước 3: Nhận mã xác thực qua Zalo hoặc gọi đến hotline 1800888680 để được hỗ trợ xác thực.
+Bước 4: Đăng nhập và trải nghiệm dịch vụ của GeneStory.
+Embedded Link: No link provided
+
+Topic: Tài khoản GeneStory
+Summary: Các bước đăng nhập tài khoản khách hàng
+Description: Để truy cập tài khoản GeneStory và đọc bản tin khoa học quan trọng, bạn cần thực hiện các bước sau trên ứng dụng:
+
+Bước 1: Truy cập trang web GeneStory và nhấp vào nút "Đăng nhập".
+Bước 2: Nhập số điện thoại, nhập mã PIN gồm 6 số để xác thực.
+Bước 3: Truy cập và trải nghiệm dịch vụ của GeneStory.
+Embedded Link: No link provided
+
+Topic: Các dự án hợp tác và nghiên cứu
+Summary: Hệ thống quản lý, phân tích và chia sẻ dữ liệu y sinh
+Description: Mục tiêu chung của dự án này là xây dựng một hệ thống quản lý, phân tích và chia sẻ dữ liệu lớn (Management, Analysis, and Sharing of large datasets – MASH), trước mắt tập trung vào dữ liệu y tế và sau đó mở rộng ra các nguồn dữ liệu khác. MASH giúp cho việc quản lý, phân tích, chia sẻ, khám phá, trực quan hóa dữ liệu một cách dễ dàng, thuận tiện và nhanh chóng. MASH cho phép người dùng (các nhà nghiên cứu tin sinh, y sinh, khoa học dữ liệu, bác sỹ, sinh viên, …) khai thác, tìm kiếm, và phân tích dữ liệu ngay trên trang web của hệ thống, qua đó người dùng tiết kiệm được thời gian và chi phí để thực hiện nghiên cứu. Ngoài ra người dùng cũng có thể tải lên hệ thống những dữ liệu mà họ có, tận dụng những tài nguyên và dịch vụ của hệ thống để thực hiện phân tích, cũng như chia sẻ dữ liệu tới cộng đồng. Thông qua MASH, người dùng có thể thực hiện các phân tích chuyên môn qua những tính năng đã được cung cấp sẵn mà không cần biết tới các kỹ thuật lập trình, trực quan hóa và phân tích dữ liệu chuyên sâu. MASH được phát triển và triển khai với nhiều lớp bảo mật, giúp hệ thống đảm bảo được tính toàn vẹn và tính bảo mật của dữ liệu cũng như đảm bảo riêng tư người dùng.
+Embedded Link: No link provided
+
+Topic: Các dự án hợp tác và nghiên cứu
+Summary: Nghiên cứu sàng lọc gen liên quan đến tác dụng phụ của thuốc
+Description: Chương trình hợp tác giữa Bệnh viện Nhi Trung ương, GeneStory và quỹ Thiện Tâm (Tập đoàn Vingroup) là Dự án "Sàng lọc miễn phí phản ứng có hại của thuốc Carbamazepine (CBZ) cho bệnh nhi đang điều trị hoặc nguy cơ cao mắc động kinh, có hoàn cảnh khó khăn" nhằm sàng lọc miễn phí phản ứng có hại của thuốc điều trị động kinh.
+Embedded Link: No link provided
+
+Topic: Các dự án hợp tác và nghiên cứu
+Summary: Dự đoán nguy cơ bệnh cho người Việt
+Description: 
+Nhóm chúng tôi mong muốn sử dụng dữ liệu di truyền toàn bộ hệ gen và các phương pháp để đánh giá hàng triệu biến đổi di truyền phổ biến có liên quan đến bệnh di truyền phức tạp như tim mạch, tiểu đường loại 2, ung thư vú, Parkinson và Alzheimer. Đối với mỗi bệnh, chúng tôi sẽ phát triển thuật toán tính toán dựa trên việc kết hợp tất cả thông di truyền đã được công bố thành một chỉ số phản ánh nguy cơ mắc bệnh của một người. Đặc biệt đối với bệnh tiểu đường, chúng tôi sẽ sử dụng số liệu gen của 2000 người Việt Nam thu được từ dự án GWAS tiểu đường mà chúng tôi đang thực hiện. Chỉ số nguy cơ này được chứng minh là có tiềm năng sử dụng trên diện rộng trong các cơ sở khám chữa bệnh.
+Embedded Link: No link provided
+
+Topic: Các dự án hợp tác và nghiên cứu
+Summary: Dự án Giải trình tự 1000 hệ gen người Việt
+Description: Trong dự án này, VinBigdata tập trung vào xây dựng cơ sở dữ liệu về gen cho người Việt ở quy mô lớn nhất hiện nay. Hệ gen của tổng cộng 1000 người Việt sẽ được giải mã toàn bộ sử dụng công nghệ giải trình tự tiên tiến của Illumina với độ phân giải 30x. Dữ liệu trình tự này sau đó sẽ được phân tích để xác định các biến dị di truyền gồm các biến dị đơn điểm (SNV), các biến dị chèn xoá ngắn (Indel) và các biến dị lớn (structural). Dữ liệu này sẽ là nền tảng cho các nghiên cứu tương quan trên toàn hệ gen, cho các bệnh di truyền và thuốc dựa trên gen, mở đường cho nghiên cứu và ứng dụng trong Y học chính xác tại Việt Nam.
+
+Embedded Link: https://vingen.vinbigdata.org/1000gen/
+Topic: Nhân sự
+Summary: Đội ngũ lãnh đạo công ty GeneStory (BOD)
+Description: Đội ngũ lãnh đạo của GeneStory ( BOD) bao gồm Giáo sư Vũ Hà Văn, Tiến Sỹ Dương Ngọc Cường, Tiến sỹ Võ Sỹ Nam, và Tiến sỹ Đào Đức Minh. Họ là những nhà khoa học có rất nhiều cống hiến cho cộng đồng khoa học và giải pháp y tế, và đều là thành viên sáng lập GeneStory. Họ góp phần trực tiếp vào việc phát triển các giải pháp di truyền trong lĩnh vực y tế, góp phần vào việc phục vụ nhu cầu chăm sóc sức khỏe hiện đại của người dân.
+Embedded Link: No link provided
+
+Topic: Nhân sự
+Summary: Hội đồng khoa học công ty GeneStory, uy tín, nhà khoa hoc
+Description: GeneStory quy tụ hơn 50 nhà khoa học hàng đầu thuộc lĩnh vực tin y sinh, y tế đến từ các tổ chức uy tín như Trường đại học Harvard (Mỹ), Đại học Johns Hopkins (Mỹ), Viện Nghiên cứu ung thư Ludwig (Mỹ), Golden Helix Foundation (Anh), Viện Tin sinh học Singapore, Bệnh viện Đa khoa Quốc tế Vinmec, Đại học Y Hà Nội...
+Họ là các nhà khoa học hàng đầu trong ngành y tế như Giáo sư Đỗ Tất Cường, Giáo sư Đặng Văn Chí, Giáo sư Pavel Pevzner và Giáo sư Ron Shamir, ông Frank Eisenhaber, Giáo sư Nguyễn Đức Công, Giáo sư Tạ Thành Văn​, Giáo sư Lê Thị Hương
+Embedded Link: No link provided
+
+Topic: Nhân sự
+Summary: Tiến Sỹ Dương Ngọc Cường , CEO, Tổng giám đốc của công ty GeneStory
+Description: TTiến Sỹ Dương Ngọc Cường là Tổng Giám Đốc (CEO) và Đồng sáng lập GeneStory.
+Tiến sĩ ngành độc học Viện Khoa học và Công nghệ Gwangju Hàn Quốc
+Embedded Link: No link provided
+
+Topic: Nhân sự
+Summary: Tiến sỹ Đào Đức Minh, Co-Founder, Đồng sáng lập của công ty GeneStory
+Description: Tiến sỹ Đào Đức Minh là Giám đốc điều hành Công ty cổ phần VinBigData, đồng sáng lập GeneStory. Tiến sỹ Minh là chuyên gia nghiên cứu trong các lĩnh vực trí tuệ nhân tạo, xử lý tín hiệu, xử lý ảnh, thị giác máy tính và máy học. Năm 2015, ông nhận bằng tiến sĩ tại đại học Johns Hopkins,Hoa Kỳ, theo chương trình học bổng của VEF.
+Embedded Link: No link provided
+
+Topic: Nhân sự
+Summary: Giáo sư Vũ Hà Văn, Founder, Nhà sáng lập của công ty GeneStory
+Description: Giáo sư Vũ Hà Văn là nhà sáng lập GeneStory, nhà Toán học Việt Nam, hiện đang làm giáo sư Toán học ở Đại học Yale. Ông đã đoạt giải Pólya (SIAM) năm 2008 của Hội đồng Quốc tế về Toán Công nghiệp và Ứng dụng, Ông là Thành viên danh dự (Fellow) của Hội Toán học Hoa Kỳ và Hội Thống kê Toán học Thế giới (IMS). Giám đốc Khoa học Viện Nghiên cứu Dữ liệu lớn VinBigData thuộc tập đoàn Vingroup.
+Embedded Link: No link provided
+
+Topic: Nhân sự
+Summary: Tiến sỹ Võ Sỹ Nam, CSO Giám đốc khoa học, Đồng sáng lập của công ty GeneStory
+Description: Tiến sỹ Võ Sỹ Nam là Đồng sáng lập, Giám đốc khoa học GeneStory và là Giảng viên liên kết tại Viện Kỹ thuật và Khoa học Máy tính, VinUniversity. Trước khi gia nhập VinBigdata, Tiến sỹ Nam là nhà nghiên cứu Tin sinh học Cấp cao tại Trung tâm Khoa học Dữ liệu, Đại học Chicago. Ông làm nghiên cứu sau tiến sỹ về Sinh học Tính toán tại Trung tâm Ung thư MD Anderson, Đại học Texas sau khi lấy bằng Tiến sĩ Khoa học Máy tính tại Đại học Memphis, Mỹ.
+Embedded Link: No link provided
+
+Topic: Khiếu nại khách hàng
+Summary: Giải quyết khiếu nại, vấn đề của khách hàng
+Description: Tất cả các sản phẩm/dịch vụ của GeneStory đều được cam kết bảo đảm quyền lợi của khách hàng trong trường hợp phát sinh khiếu nại. Khách hàng có thể yêu cầu hỗ trợ và giải quyết khiếu nại từ đơn vị Chăm Sóc Khách Hàng của GeneStory. Nếu trường hợp phức tạp hoặc không được quy định trong các chính sách, khách hàng sẽ nhận được phản hồi trong vòng 07 ngày. GeneStory cũng sẽ đề nghị cơ quan pháp luật can thiệp để đảm bảo lợi ích hợp pháp của các bên trong trường hợp không được giải quyết hoặc thỏa thuận một cách thỏa đáng.
+Embedded Link: No link provided
+
+Topic: Quy trình lấy mẫu DNA
+Summary: Quy trình lấy mẫu ADN, các bước xét nghiệm
+Description: Các bước lấy mẫu và xét nghiệm DNA:
+
+1. Chuẩn bị trước khi lấy mẫu:
+- Nhịn ăn, nhịn uống: 30 phút trước khi lấy mẫu nước bọt.
+- Tránh hút thuốc, nhai kẹo cao su, sử dụng nước súc miệng: 30 phút trước khi lấy mẫu nước bọt.
+- Tránh đánh răng: 2 tiếng trước khi lấy mẫu nước bọt.
+- Rửa tay sạch: trước khi lấy mẫu nước bọt hoặc máu.
+
+2. Lấy mẫu:
+- Bạn có thể yêu cầu lấy mẫu tại nhà hoặc đến trực tiếp văn phòng GeneStory.
+- Bạn được cung cấp 1 bộ kit lấy mẫu nước bọt. Để lấy mẫu, vui lòng làm theo các bước hướng dẫn dựa trên video ở đường link sau: https://www.youtube.com/watch?v=GIRwCVCkYGg. 
+- Lưu ý, mẫu nước bọt của bạn chỉ được xử lý nếu mẫu nước bọt đó chứa đủ lượng ADN. Nếu mẫu nước bọt của bạn không chứa đủ lượng ADN, GeneStory không thể xử lý và bạn sẽ được yêu cầu cung cấp mẫu nước bọt mới để xét nghiệm.
+
+3. Gửi mẫu và nhận kết quả:
+- Bạn sẽ gửi mẫu tới văn phòng GeneStory, trước 14 ngày, chúng tôi sẽ gửi thông báo quá Email và SMS và hướng dẫn bạn truy cập và xem kết quả.
+
+Ngoài ra, nếu bạn lấy mẫu máu thay cho nước bọt, lượng mẫu máu cần lấy để thực hiện giải mã gen là 2ml. Khách hàng có thể lựa chọn tới lấy mẫu trực tiếp tại văn phòng của GeneStory hoặc đăng ký lấy mẫu máu tại nhà, GeneStory sẽ có nhân viên điều dưỡng tới lấy mẫu máu tại nhà. Hai phương pháp lấy mẫu này có độ chính xác NHƯ NHAU. Tuy nhiên, với việc lấy mẫu bằng nước bọt, khách hàng có thể sẽ gặp phải rủi ro lấy mẫu lại, do các nguyên nhân như: mẫu nước bọt bị lẫn tạp chất như đồ ăn, son môi, hay khó khăn trong việc lấy nước bọt ở các em bé sơ sinh… khiến khách hàng tốn thời gian trong khâu lấy mẫu, tăng thêm thời gian chờ đợi kết quả.
+
+Trong khi đó, việc lấy mẫu máu tuy dễ dàng thực hiện hơn và tránh được các rủi ro phải lấy mẫu lại như kể trên, cũng sẽ có những trường hợp mà khách hàng không thể lấy máu mà phải lấy mẫu nước bọt, ví dụ như phụ nữ có thai, người có nghi ngờ ung thư máu, ghép tủy, ghép tạng…
+Embedded Link: No link provided
+
+Topic: Giải mã gene
+Summary: Giải mã, xét nghiệm gen phương pháp, lợi ích
+Description: Giải mã gen ở GeneStory mang lại nhiều lợi ích cho bạn:
+1. Hiểu rõ bản thân:
+Nguy cơ mắc bệnh: Giải mã gen giúp bạn dự đoán nguy cơ mắc các bệnh di truyền, ung thư, tim mạch, tiểu đường,... từ đó có kế hoạch phòng ngừa hiệu quả.
+Thể chất: Xác định khả năng hấp thu dinh dưỡng, thể chất, sức bền,... để xây dựng chế độ luyện tập và dinh dưỡng phù hợp.
+Tính cách: Hiểu rõ điểm mạnh, điểm yếu, xu hướng tính cách để phát triển bản thân và xây dựng mối quan hệ tốt đẹp.
+Nghề nghiệp : Phát hiện tiềm năng và năng khiếu bẩm sinh, định hướng nghề nghiệp phù hợp.
+
+2. Chăm sóc sức khỏe chủ động:
+Phòng ngừa bệnh: Dựa trên kết quả giải mã gen, bạn có thể xây dựng kế hoạch tầm soát, dự phòng các bệnh nguy cơ cao.
+Cá nhân hóa y tế: Lựa chọn phương pháp điều trị phù hợp với cơ địa, giảm tác dụng phụ của thuốc.
+Chăm sóc sức khỏe toàn diện: Có kế hoạch dinh dưỡng, luyện tập phù hợp để nâng cao sức khỏe và chất lượng cuộc sống.
+
+3. Lập kế hoạch cho tương lai:
+Sàng lọc trước sinh: Giảm nguy cơ sinh con mắc bệnh di truyền.
+Giáo dục con cái: Định hướng phát triển phù hợp với năng khiếu và tiềm năng của con.
+Lập kế hoạch tài chính: Dự phòng chi phí cho các vấn đề sức khỏe trong tương lai.
+GeneStory cung cấp các gói giải mã gen đa dạng, phù hợp với nhu cầu của từng người.
+
+Lưu ý:
+Giải mã gen chỉ là công cụ dự đoán nguy cơ, không phải là chẩn đoán y khoa.
+Bạn nên tham khảo ý kiến bác sĩ để được tư vấn cụ thể về kết quả giải mã gen và cách sử dụng thông tin này để chăm sóc sức khỏe bản thân và gia đình.
+Hãy liên hệ GeneStory để được tư vấn miễn phí về giải mã gen!
+
+Website: [GeneStory](https://genestory.ai)
+Hotline: 1800 888 680
+Embedded Link: No link provided
+
+Topic: Giải mã gene
+Summary: Thách thức và hạn chế của giải mã gen
+Description: Thách thức và hạn chế của giải mã gen:
+1. Vấn đề đạo đức và bảo mật thông tin:
+- Thông tin di truyền là thông tin nhạy cảm, cần được bảo mật nghiêm ngặt.
+- Nguy cơ phân biệt đối xử, lạm dụng thông tin di truyền trong các lĩnh vực như bảo hiểm, tuyển dụng,...
+2. Khả năng giải thích và ứng dụng kết quả:
+- Kết quả giải mã gen có thể phức tạp, khó hiểu đối với người không chuyên môn.
+- Khả năng ứng dụng kết quả giải mã gen vào thực tiễn y tế còn hạn chế.
+3. Tính chính xác và độ tin cậy 
+- Công nghệ giải mã gen đang phát triển nhanh chóng, nhưng vẫn còn tiềm ẩn sai sót.
+- Kết quả giải mã gen có thể bị ảnh hưởng bởi nhiều yếu tố như môi trường, lối sống,...
+4. Chi phí: 
+- Giải mã gen là một dịch vụ tương đối đắt đỏ, chưa phù hợp với nhiều người.
+5. Hiểu biết về di truyền học:
+- Cần có kiến thức về di truyền học để hiểu rõ kết quả giải mã gen và sử dụng thông tin này một cách hiệu quả.
+
+Ngoài ra, giải mã gen cũng có một số hạn chế khác như:
+- Không thể dự đoán chính xác 100% nguy cơ mắc bệnh.
+- Không thể thay đổi gen, chỉ có thể dự đoán và phòng ngừa.
+- Có thể gây ra lo lắng, hoang mang cho người nhận kết quả.
+
+Tuy nhiên, giải mã gen vẫn là một công cụ hữu ích để:
+- Hiểu rõ bản thân và sức khỏe của mình.
+- Phòng ngừa và điều trị bệnh hiệu quả.
+- Lập kế hoạch cho tương lai.
+
+Do vậy, bạn nên cân nhắc kỹ lưỡng trước khi quyết định giải mã gen. Hãy liên hệ với GeneStory để được tư vấn miễn phí về giải mã gen!
+Website: [GeneStory](https://genestory.ai)
+Hotline: 1800 888 680
+Embedded Link: No link provided
+
+Topic: Giải mã gene
+Summary: Giải mã gen với sinh trắc vân tay
+Description: Mặc dù cùng có thể đưa ra những phân tích về thiên hướng tính cách, hành vi và tiềm năng, nhưng giải mã gen phân tích “Bản thiết kế” sinh học quan trọng nhất của mỗi người: trình tự DNA. Trong nhiều thập kỉ gần đây, liên tiếp những bí ẩn của di truyền học được giải mã nhờ phân tích gen. Các kết quả nghiên cứu từ các tạp chí khoa học hàng đầu thế giới đã khẳng định tính khoa học của giải mã gen.
+
+Ngược lại, sinh trắc vân tay vẫn còn gặp nhiều nghi hoặc trong giới khoa học. Viện Hàn lâm Khoa học Quốc gia Hoa Kỳ đã từng đặt nghi vấn về tính đúng đắn của sinh trắc vân tay vào năm 2009. Thêm vào đó, các nghiên cứu cho thấy sinh trắc vân tay chỉ phản ánh một phần thông tin di truyền (từ 30%). Vì vậy, giải mã gen vẫn mang lại nhiều thông tin hơn, đặc biệt là các nguy cơ bệnh lý, phản ứng phụ của thuốc.
+Embedded Link: No link provided
+
+Topic: Giới thiệu về công ty GeneStory
+Summary: Giới thiệu, thông tin của công ty GeneStory
+Description: GeneStory là công ty công nghệ gen hàng đầu Việt Nam được thành lập vào năm 2022 bởi Vingroup và các nhà khoa học hàng đầu trong lĩnh vực giải mã gen. GeneStory mang sứ mệnh tiên phong trong việc ứng dụng công nghệ gen tiên tiến để giúp người Việt Nam chủ động làm chủ sức khỏe và nâng tầm cuộc sống và hướng đến trở thành công ty công nghệ gen hàng đầu Việt Nam và khu vực, cung cấp các giải pháp giải mã gen toàn diện và chính xác, góp phần hiện thực hóa y học chính xác từ tầm soát đến điều trị. GeneStory cam kết mang đến cho khách hàng những dịch vụ giải mã gen chất lượng cao, góp phần nâng cao chất lượng cuộc sống cho người Việt Nam.
+
+Về sản phẩm, GeneStory cung cấp các gói giải mã gen toàn diện cho mọi lứa tuổi, giúp dự đoán nguy cơ mắc bệnh, phát triển thể chất, tính cách, xu hướng nghề nghiệp,...
+Ngoài ra, GeneStory cung cấp dịch vụ tư vấn di truyền chuyên sâu bởi đội ngũ bác sĩ di truyền giàu kinh nghiệm, giúp khách hàng hiểu rõ kết quả giải mã gen và đưa ra các quyết định phù hợp để chăm sóc sức khỏe bản thân và gia đình.
+
+Hãy liên hệ với GeneStory để được tư vấn miễn phí về giải mã gen!
+Website: [GeneStory](https://genestory.ai)
+Hotline: 1800 888 680
+Embedded Link: No link provided
+
+Topic: Giới thiệu về công ty GeneStory
+Summary: GeneStory khác biệt với các công ty công nghệ sinh học khác ở Việt Nam như thế nào? Lý do lựa chọn GeneStory, điểm nổi bật, ưu điểm, sự uy tín?
+Description: Điểm khác biệt và nổi bật của GeneStory so với các công ty công nghệ sinh học khác ở Việt Nam:
+1. Dữ liệu gen người Việt: GeneStory sở hữu kho dữ liệu gen người Việt lớn nhất Việt Nam với hơn 1.000 bộ gen được giải mã. Dữ liệu này được thu thập từ các dự án nghiên cứu khoa học uy tín và được cập nhật liên tục. Việc sử dụng dữ liệu gen người Việt giúp GeneStory cung cấp các dịch vụ giải mã gen chính xác và phù hợp hơn với người Việt Nam.
+
+2. Công nghệ tiên tiến: GeneStory ứng dụng các công nghệ giải mã gen tiên tiến nhất trên thế giới như Illumina NovaSeq 6000, đảm bảo độ chính xác và tin cậy cao. GeneStory cũng đầu tư mạnh mẽ vào nghiên cứu và phát triển công nghệ để nâng cao chất lượng dịch vụ.
+
+3. Đội ngũ chuyên gia: GeneStory sở hữu đội ngũ chuyên gia giàu kinh nghiệm trong lĩnh vực giải mã gen và di truyền học. Các chuyên gia của GeneStory được đào tạo bài bản tại các trường đại học và viện nghiên cứu uy tín trong và ngoài nước.
+
+4. Dịch vụ chuyên nghiệp: GeneStory cung cấp dịch vụ tư vấn và chăm sóc khách hàng chuyên nghiệp, tận tâm. GeneStory cam kết mang đến cho khách hàng trải nghiệm dịch vụ tốt nhất.
+
+5. Hệ sinh thái y tế: GeneStory là một phần của hệ sinh thái y tế Vinmec, tập đoàn y tế hàng đầu Việt Nam. Điều này giúp GeneStory có thể kết nối với các dịch vụ y tế khác như khám sức khỏe, điều trị bệnh, v.v. để cung cấp cho khách hàng giải pháp chăm sóc sức khỏe toàn diện.
+
+Ngoài những điểm khác biệt trên, GeneStory còn nổi bật với:
+
+Giá cả cạnh tranh: GeneStory cung cấp các gói giải mã gen với mức giá cạnh tranh, phù hợp với nhiều đối tượng khách hàng.
+Tính bảo mật cao: GeneStory cam kết bảo mật thông tin gen của khách hàng theo các tiêu chuẩn quốc tế.
+Tính minh bạch: GeneStory cung cấp cho khách hàng các báo cáo giải mã gen dễ hiểu và minh bạch.
+Với những điểm khác biệt và nổi bật trên, GeneStory đang dần khẳng định vị thế là công ty công nghệ gen hàng đầu Việt Nam.
+Embedded Link: No link provided
+
+Topic: Giới thiệu về công ty GeneStory
+Summary: Lựa chọn công ty ở Việt Nam trong lĩnh vực xét nghiệm gene
+Description: Dưới đây là một số công ty xét nghiệm gen uy tín tại Việt Nam:
+1. GeneStory (2022)
+2. Gene Solutions (2014)
+3. Trung tâm xét nghiệm ADN GENTIS (2004)
+4. Viện di truyền y học - Bệnh viện Đại học Y Dược TP.HCM (2003)
+5. Trung tâm xét nghiệm Medlatec (2007)
+6. Genetica (2014)
+
+Lưu ý: Khi lựa chọn công ty xét nghiệm gen, bạn nên cân nhắc các yếu tố sau:
+- Uy tín của công ty
+- Chất lượng dịch vụ
+- Giá cả
+- Chuyên môn của đội ngũ nhân viên
+Embedded Link: No link provided
+
+Topic: Giới thiệu về công ty GeneStory
+Summary: Các công nghệ và quy trình chất lượng
+Description: GeneStory sử dụng nhiều công nghệ tiên tiến trong lĩnh vực giải mã gen và di truyền học, bao gồm:
+
+1. Giải mã gen toàn bộ bộ gen (Whole Genome Sequencing - WGS): Công nghệ này cho phép xác định trình tự tất cả các cặp base trong bộ gen của một người, cung cấp thông tin toàn diện về di truyền của họ.
+
+2. Giải mã gen Exome (Exome Sequencing): Exome là phần mã hóa protein của bộ gen, chiếm khoảng 1% tổng bộ gen. Giải mã exome tập trung vào khu vực này để tìm kiếm các biến thể gen có liên quan đến bệnh di truyền.
+
+3. Kỹ thuật Panel Gen: Kỹ thuật này cho phép phân tích một nhóm gen cụ thể được chọn lọc dựa trên các yếu tố như nguy cơ mắc bệnh, triệu chứng hoặc đặc điểm di truyền.
+
+4. Trình tự gen Sanger: Đây là một kỹ thuật truyền thống được sử dụng để xác định trình tự DNA của một đoạn gen cụ thể.
+
+5. Trí tuệ nhân tạo và học máy: AI được sử dụng để phân tích dữ liệu gen và đưa ra các dự đoán chính xác hơn về nguy cơ mắc bệnh và phát triển các ứng dụng mới của công nghệ gen trong lĩnh vực y học và sức khỏe.
+
+6. Nền tảng dữ liệu lớn: GeneStory sở hữu một nền tảng dữ liệu lớn về gen người Việt, được xây dựng từ dự án giải mã 1.000 bộ gen người Việt. Nền tảng này giúp GeneStory đưa ra các kết quả giải mã gen chính xác và phù hợp với người Việt Nam.
+
+7. Công nghệ điện toán đám mây: GeneStory sử dụng công nghệ điện toán đám mây để lưu trữ và xử lý dữ liệu gen một cách an toàn và hiệu quả.
+
+Ngoài các công nghệ trên, GeneStory cũng hợp tác với các viện nghiên cứu và công ty công nghệ hàng đầu trong lĩnh vực giải mã gen để cập nhật và ứng dụng những công nghệ mới nhất vào dịch vụ của mình.
+Embedded Link: No link provided
+
+Topic: Thanh toán dịch vụ
+Summary: Các phương thức thanh toán của khách hàng, chuyển khoản ngân hàng, thẻ tín dụng, thẻ ghi nợ, tiền mặt, thanh toán trực tiếp
+Description: Công ty Cổ phần GeneStory hỗ trợ nhiều phương thức thanh toán khác nhau để khách hàng có thể chọn theo nhu cầu. Dưới đây là một số phương thức thanh toán mà khách hàng có thể sử dụng:
+
+1. Chuyển khoản Ngân hàng: Khách hàng có thể sử dụng dịch vụ internet banking của ngân hàng để chuyển tiền trực tuyến. Công ty sẽ cung cấp tên Công ty và số tài khoản của khách hàng trong phần thông báo cho phép khách hàng chuyển khoản thanh toán.
+
+2. Thu phí bằng thẻ tín dụng hoặc thẻ ghi nợ: Khách hàng có thể thanh toán qua thẻ tín dụng hoặc thẻ ghi nợ của họ thông qua các phương thức thanh toán trực tuyến hoặc qua ứng dụng di động của bên thứ ba.
+
+3. Hoặc thanh toán bằng tiền mặt: Công ty có thể chấp nhận thanh toán bằng tiền mặt thông qua các phương thức giao dịch như nhận tiền chuyển khoản hoặc thanh toán tại trung tâm giao dịch.
+
+Để biết thêm thông tin chi tiết về cách thanh toán tại GeneStory, khách hàng có thể liên hệ trực tiếp với đội ngũ chăm sóc khách hàng của công ty qua hotline hoặc email.
+Embedded Link: No link provided
+
+Topic: Thanh toán dịch vụ
+Summary: Các điều kiện để đổi dịch vụ
+Description: Đối với dịch vụ đổi, Khách hàng cần đáp ứng các điều kiện sau:
+- Chuyển đổi trong vòng 15 ngày kể từ ngày đăng ký dịch vụ và trước khi Công ty thực hiện phân tích và giải mã gen.
+- Phí thay đổi phải bằng hoặc cao hơn giá phí đã đăng ký trước đó.
+- Trong trường hợp dịch vụ mà Khách hàng muốn đổi có giá dịch vụ cao hơn giá dịch vụ đã đăng ký, Khách hàng phải thanh toán phí giá dịch vụ chênh lệch trong vòng 03 ngày kể từ ngày phát sinh yêu cầu đổi dịch vụ.
+- Trong trường hợp dịch vụ mà Khách hàng muốn đổi có giá dịch vụ bằng giá dịch vụ đã đăng ký, Khách hàng không phải thanh toán phí chênh lệch dịch vụ.
+- Trong trường hợp dịch vụ mà Khách hàng muốn đổi có giá dịch vụ thấp hơn giá dịch vụ đã đăng ký, Khách hàng không phải trả thêm phí nhưng sẽ không được hoàn lại thanh toán phí chênh lệch dịch vụ.
+Embedded Link: No link provided
+
+Topic: Thanh toán dịch vụ
+Summary: Chính sách hủy dich vụ và phí thanh toán
+Description: Khi Khách hàng không nhận được sản phẩm và không liên hệ với Công ty, Khách hàng có quyền yêu cầu hủy dịch vụ và Công ty sẽ xem xét điều đó. Tuy nhiên, Khách hàng cần thông báo cho chúng tôi trong thời hạn 30 ngày kể từ ngày đến hạn. Nếu sau thời gian này, chúng tôi không nhận được yêu cầu hủy dịch vụ và sản phẩm đã được thực hiện đúng theo tiến độ, Khách hàng sẽ không được hoàn trả tiền hoặc trừ phí đã được yêu cầu theo chính sách hủy dịch vụ.
+
+Liên quan đến phiếu thanh toán và phiếu đạt chuẩn, chúng tôi yêu cầu Khách hàng gửi thông tin hoàn thiện Mẫu đạt chuẩn (như yêu cầu của CSDL) và một Phiếu thanh toán trước khi tiến hành giao hàng để đảm bảo tiến trình tốt nhất.
+Embedded Link: No link provided
+
+Topic: Bảo mật và quyền riêng tư
+Summary: Bảo mật dữ liệu và thông tin khách hàng và quyền riêng tư
+Description: GeneStory xử lý tất cả thông tin cá nhân của khách hàng một cách bảo mật và không tiết lộ cho bên thứ ba mà không có sự cho phép trước. Chúng tôi đảm bảo an ninh dữ liệu và quyền riêng tư của người dùng bằng cách tuân thủ các quy định pháp lý, duy trì tính bí mật và tuân thủ các Quy định Quyền riêng tư của Hoa Kỳ. Chúng tôi sử dụng các biện pháp bảo mật hàng đầu, tuân thủ các tiêu chuẩn nghiêm ngặt và cập nhật chính sách bảo mật để bảo vệ quyền lợi của khách hàng. Chúng tôi ưu tiên an ninh dữ liệu và quyền riêng tư, tuân thủ các tiêu chuẩn quốc tế như ISO/IEC 27001:2013, OWASP, NIST và SANS. Chúng tôi mã hóa thông tin nhạy cảm cả khi lưu trữ và truyền tải và hạn chế truy cập chỉ cho nhân viên được ủy quyền. Chúng tôi có một đội ngũ các chuyên gia bảo mật giàu kinh nghiệm để giải quyết các vấn đề bảo mật và hạn chế chia sẻ thông tin với bên thứ ba trừ khi có sự đồng ý hoặc cho mục đích nghiên cứu khoa học.
+Embedded Link: No link provided
+
+Topic: Sản phẩm và dịch vụ
+Summary: Dịch vụ liên quan đến kiểm soát thai kỳ
+Description: GeneStory không cung cấp các sản phẩm và dịch vụ liên quan đến việc kiểm soát thai kỳ.
+Embedded Link: No link provided
+
+Topic: Sản phẩm và dịch vụ
+Summary: Hướng dẫn đặt mua hàng
+Description: Để đặt mua sản phẩm của Công ty GeneStory, bạn có thể truy cập trang web của công ty tại địa chỉ [GeneStory](https://genestory.ai) để chọn sản phẩm mong muốn. 
+Sau khi chọn được sản phẩm phù hợp bạn nhấn vào nút "Tư vấn thêm", GeneStory sẽ liên hệ với bạn để tư vấn về sản phẩm phù hợp nhất cho bạn. 
+
+Ngoài ra, bạn cũng có thể mua sản phẩm GeneStory bằng cách gọi: 1800 888 680 hoặc đến trực tiếp văn phòng GeneStory tại địa chỉ: Tòa nhà văn phòng Symphony, đường Chu Huy Mân, Khu đô thị sinh thái Vinhome Riverside, Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội.
+Embedded Link: No link provided
+
+Topic: Chương trình khuyến mãi
+Summary: Chương trình khuyến mãi
+Description: Để nắm rõ thông tin các chương trình khuyến mãi, cần theo dõi các nền tảng truyền thông như facebook, instagram,.. và trang web chính thức của GeneStory.
+Embedded Link: No link provided
+
+Topic: Sản phẩm và dịch vụ
+Summary: Danh sách tổng hợp các gói giải mã gen
+Description: GeneStory cung cấp dòng sản phẩm GeneMap được thiết kế cho cả trẻ em và người lớn là GeneMap-Kid và GeneMap-Adult.
+
+Ngoài ra, khách hàng có thể lựa chọn mua thêm các sản phẩm mở rộng từ gói GeneMap. Các gói mở rộng này bao gồm GeneMap-TD2, GeneMap-Fitness, GeneMap-Nutri, GeneMap-Skin, GeneMap-Mental và GeneMap-Ancestor (lưu ý là các gói mở rộng không có sẵn để mua lẻ). Ngoài ra, thẻ Genemark Genestory là một sản phẩm mới được phát triển bởi Genestory để giúp người dùng truy cập và quản lý dữ liệu gen của họ một cách dễ dàng hơn. 
+
+Đối với những người đang tìm kiếm một gói giải mã gen toàn diện, GeneMap-Combo bao gồm gói GeneMap và tất cả các tính năng bổ sung (GeneMap Combo không bao gồm GeneMark)
+Embedded Link: No link provided
+
+Topic: Sản phẩm và dịch vụ
+Summary: GeneMap Kid (Gói sản phẩm chính - chỉ dành cho trẻ em)
+Giá: 4,800,000
+Description: Gói GeneMap Kid (dành cho trẻ em) có giá là 4.800.000 cung cấp các thông tin sau:
+- Mô hình tính cách big5: Bất ổn cảm xúc, Cởi mở, Dễ chịu, Hướng nội - Hướng ngoại, Tận tâm - Thận trọng
+- RIASEC: Người hành động, Người trợ giúp, Nhà sáng tạo, Nhà tư tưởng, Người thương thuyết, Nhà tổ chức.
+- 8 nhóm thông minh (Gardner): Không gian - thị giác, Toán học - logic, Âm nhạc, Ngôn ngữ, Thể chất, Xã hội, Nội tâm, Tự nhiên.
+- Hồ sơ gen trọn đời về đáp ứng thuốc 170+ loại thuốc dùng trong điều trị 20 nhóm bệnh: thuốc gây mê, chống nôn, điều trị gout, chống nhiễm trùng, chống viêm giảm đau, điều trị ung thư, tim mạch, tiểu đường, tâm thần…
+Embedded Link: https://qa.genestory.ai/home/home/package/genemap-kid/
+
+Topic: Sản phẩm và dịch vụ
+Summary: GeneMap Adult (Sản phẩm chính - chỉ dành cho người lớn)
+Giá: 4,800,000
+Description: Gói GeneMap Adult (dành cho người lớn) có giá là 4.800.000 cung cấp các thông tin sau:
+- Mô hình tính cách big5: Bất ổn cảm xúc, Cởi mở, Dễ chịu, Hướng nội - Hướng ngoại, Tận tâm - Thận trọn
+- RIASEC: Người hành động, Người trợ giúp, Nhà sáng tạo, Nhà tư tưởng, Người thương thuyết, Nhà tổ chức.
+- Dự báo nguy cơ mắc các bệnh: Ung thư vú, Ung thư đại trực tràng, Gút, Cao huyết áp, Động mạch vành, Rung tâm nhĩ và đưa ra khuyến nghị lối sống và tầm soát định kỳ dựa trên kết quả báo cáo.
+- Hồ sơ gen trọn đời về đáp ứng thuốc 170+ loại thuốc dùng trong điều trị 20 nhóm bệnh: thuốc gây mê, chống nôn, điều trị gout, chống nhiễm trùng, chống viêm giảm đau, điều trị ung thư, tim mạch, tiểu đường, tâm thần…
+Embedded Link: https://qa.genestory.ai/home/home/package/genemap-adult/

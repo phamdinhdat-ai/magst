@@ -1,0 +1,30 @@
+def get_workflow_manager():
+    """
+    Helper function to get the initialized customer workflow instance.
+    If the workflow was not initialized during application startup,
+    this creates a new instance and also starts the queue workers.
+    """
+    # Get the globally initialized workflow from the workflow_manager
+    from app.core.workflow_manager import get_customer_workflow, init_customer_workflow
+    
+    workflow = get_customer_workflow()
+    if workflow is None:
+        # Fallback in case the workflow wasn't initialized in main.py
+        # This shouldn't normally happen with proper initialization
+        from app.agents.workflow.customer_workflow import CustomerWorkflow
+        workflow = CustomerWorkflow(max_iterations=3)  # Same value as in main.py
+        
+        # Store the workflow in the global singleton
+        init_customer_workflow(workflow)
+        
+        # Initialize the queue with the workflow manager
+        from app.api.v1.customer_request_queue import customer_request_queue
+        customer_request_queue.set_workflow(workflow)
+        
+        # Start the queue workers since we're in an async context now
+        import asyncio
+        asyncio.create_task(customer_request_queue.start_workers())
+        
+        logger.warning("Customer workflow was initialized on demand and queue workers started")
+    
+    return workflow

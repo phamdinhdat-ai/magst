@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: datpd
+      POSTGRES_PASSWORD: datpd
+      POSTGRES_DB: gst_agents
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U datpd"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gst-network
+
+  gst-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gst-service:v0.0.6
+    container_name: gst-chatbot-container
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ../:/app
+      - ./vector_stores_data:/app/vector_stores_data
+    networks:
+      - gst-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+networks:
+  gst-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

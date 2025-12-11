@@ -1,0 +1,329 @@
+2025-08-28 10:51:42.217 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:51:42.217 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:52:21.569 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:52:21.570 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:52:44.429 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:52:44.429 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:54:02.783 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:54:02.783 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:55:08.164 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:55:08.164 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:56:36.184 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:56:36.184 | INFO     | __main__:<module>:19 - Creating customer retriever for customer ID: 21
+2025-08-28 10:56:59.639 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:57:15.598 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 10:57:15.598 | INFO     | __main__:main:86 - Creating customer retriever for customer ID: 21
+2025-08-28 10:57:15.598 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:133 - Initializing CustomerRetrieverMCPClient for customer '21'...
+2025-08-28 10:57:15.599 | INFO     | app.agents.retrievers.customer_mcp_retriever:_load_document_registry:192 - Loaded 1 entries from registry for customer '21'
+2025-08-28 10:57:15.644 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_test_server_connection:175 - MCP server connection test successful for customer '21'
+2025-08-28 10:57:15.645 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:156 - MCP server connection successful for customer '21'
+2025-08-28 10:57:15.645 | INFO     | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:359 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21 for customer '21' files
+2025-08-28 10:57:15.646 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_DoanQuangThu_900085696876_genestory_book.pdf
+2025-08-28 10:57:15.646 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:367 - Processing file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_DoanQuangThu_900085696876_genestory_book.pdf for customer '21'
+2025-08-28 10:57:15.655 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_data_mcp_registry.json
+2025-08-28 10:57:15.655 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_data_registry.json
+2025-08-28 10:57:15.655 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_save_document_registry:204 - Registry saved with 1 entries for customer '21'
+2025-08-28 10:57:15.656 | INFO     | app.agents.retrievers.customer_mcp_retriever:_start_document_watcher:397 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21' for customer '21'
+2025-08-28 10:57:15.656 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:167 - CustomerRetrieverMCPClient initialized successfully for customer '21'
+2025-08-28 10:57:17.602 | INFO     | __main__:main:96 - Creating drug retriever for collection: drug_knowledge
+2025-08-28 10:57:17.603 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:107 - Initializing DrugRetrieverMCPClient...
+2025-08-28 10:57:17.605 | INFO     | app.agents.retrievers.drug_mcp_retriever:_load_document_registry:167 - Loaded 1 entries from registry
+2025-08-28 10:57:17.623 | DEBUG    | app.agents.retrievers.drug_mcp_retriever:_test_server_connection:150 - MCP server connection test successful
+2025-08-28 10:57:17.624 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:131 - MCP server connection successful
+2025-08-28 10:57:17.625 | INFO     | app.agents.retrievers.drug_mcp_retriever:_scan_and_process_all_files:295 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs
+2025-08-28 10:57:17.626 | INFO     | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:274 - Change detected for 'drug_docs.json'. Processing...
+2025-08-28 10:57:17.626 | ERROR    | app.agents.retrievers.drug_mcp_retriever:_load_and_split_file:223 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs/registry/drug_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 10:57:17.627 | WARNING  | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:291 - No documents extracted from 'drug_docs.json'
+2025-08-28 10:57:17.627 | INFO     | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:274 - Change detected for 'drug_data.json'. Processing...
+2025-08-28 10:57:17.627 | ERROR    | app.agents.retrievers.drug_mcp_retriever:_load_and_split_file:223 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs/registry/drug_data.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 10:57:17.627 | WARNING  | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:291 - No documents extracted from 'drug_data.json'
+2025-08-28 10:57:17.628 | DEBUG    | app.agents.retrievers.drug_mcp_retriever:_save_document_registry:179 - Registry saved with 1 entries
+2025-08-28 10:57:17.628 | INFO     | app.agents.retrievers.drug_mcp_retriever:_start_document_watcher:330 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs'
+2025-08-28 10:57:17.629 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:142 - DrugRetrieverMCPClient initialized successfully
+2025-08-28 10:57:19.606 | INFO     | __main__:main:108 - Creating genetic retriever for collection: genetic_knowledge
+2025-08-28 10:57:19.608 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:107 - Initializing GeneticRetrieverMCPClient...
+2025-08-28 10:57:19.609 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_load_document_registry:168 - Loaded 2 genetic document entries from registry
+2025-08-28 10:57:19.647 | DEBUG    | app.agents.retrievers.genetic_mcp_retriever:_test_server_connection:151 - MCP server connection test successful
+2025-08-28 10:57:19.648 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:132 - MCP server connection successful
+2025-08-28 10:57:19.648 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_scan_and_process_all_files:309 - Scanning genetic directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics
+2025-08-28 10:57:19.654 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:288 - Change detected for genetic file 'genetic_docs.json'. Processing...
+2025-08-28 10:57:19.654 | ERROR    | app.agents.retrievers.genetic_mcp_retriever:_load_and_split_file:238 - Error loading genetic file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics/registry/genetic_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 10:57:19.654 | WARNING  | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:305 - No genetic documents extracted from 'genetic_docs.json'
+2025-08-28 10:57:19.655 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:288 - Change detected for genetic file 'genetic_data.json'. Processing...
+2025-08-28 10:57:19.655 | ERROR    | app.agents.retrievers.genetic_mcp_retriever:_load_and_split_file:238 - Error loading genetic file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics/registry/genetic_data.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 10:57:19.655 | WARNING  | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:305 - No genetic documents extracted from 'genetic_data.json'
+2025-08-28 10:57:19.655 | DEBUG    | app.agents.retrievers.genetic_mcp_retriever:_save_document_registry:180 - Genetic registry saved with 2 entries
+2025-08-28 10:57:19.657 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_start_document_watcher:344 - Started genetic document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics'
+2025-08-28 10:57:19.658 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:143 - GeneticRetrieverMCPClient initialized successfully
+2025-08-28 10:57:21.610 | INFO     | __main__:main:123 - Creating product retriever for collection: product_knowledge
+2025-08-28 10:57:21.612 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:335 - Initializing EnhancedProductRetrieverMCPClient...
+2025-08-28 10:57:21.613 | INFO     | app.agents.retrievers.product_mcp_retriever:_load_document_registry:406 - Loaded 2 entries from registry
+2025-08-28 10:57:21.681 | DEBUG    | app.agents.retrievers.product_mcp_retriever:_test_server_connection:388 - MCP server connection test successful
+2025-08-28 10:57:21.686 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:365 - MCP server connection successful
+2025-08-28 10:57:21.687 | INFO     | app.agents.retrievers.product_mcp_retriever:_sync_database_products:508 - Syncing product database to vector store...
+2025-08-28 10:57:21.934 | INFO     | app.agents.retrievers.product_mcp_retriever:_upload_documents_to_server:492 - Server response: Successfully ingested 25 documents into collection 'product_knowledge'.
+2025-08-28 10:57:21.937 | INFO     | app.agents.retrievers.product_mcp_retriever:_sync_database_products:539 - Successfully synced 25 products to vector store
+2025-08-28 10:57:21.939 | INFO     | app.agents.retrievers.product_mcp_retriever:_scan_and_process_all_files:618 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products
+2025-08-28 10:57:21.941 | INFO     | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:597 - Change detected for 'extract_products_data.py'. Processing...
+2025-08-28 10:57:21.942 | WARNING  | app.agents.retrievers.product_mcp_retriever:_load_and_split_file:442 - Unsupported file type: .py
+2025-08-28 10:57:21.942 | WARNING  | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:614 - No documents extracted from 'extract_products_data.py'
+2025-08-28 10:57:21.944 | INFO     | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:597 - Change detected for 'product_docs.json'. Processing...
+2025-08-28 10:57:21.944 | ERROR    | app.agents.retrievers.product_mcp_retriever:_load_and_split_file:463 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products/registry/product_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 10:57:21.945 | WARNING  | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:614 - No documents extracted from 'product_docs.json'
+2025-08-28 10:57:21.946 | DEBUG    | app.agents.retrievers.product_mcp_retriever:_save_document_registry:418 - Registry saved with 2 entries
+2025-08-28 10:57:21.947 | INFO     | app.agents.retrievers.product_mcp_retriever:_start_document_watcher:653 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products'
+2025-08-28 10:57:21.948 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:380 - EnhancedProductRetrieverMCPClient initialized successfully
+2025-08-28 10:57:23.615 | INFO     | __main__:main:135 - Creating company retriever for collection: company_knowledge
+2025-08-28 10:57:23.617 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 10:57:23.618 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 10:57:23.638 | DEBUG    | app.agents.retrievers.company_mcp_retriever:_test_server_connection:148 - MCP server connection test successful
+2025-08-28 10:57:23.639 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:129 - MCP server connection successful
+2025-08-28 10:57:23.642 | INFO     | app.agents.retrievers.company_mcp_retriever:_scan_and_process_all_files:292 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies
+2025-08-28 10:57:23.642 | DEBUG    | app.agents.retrievers.company_mcp_retriever:_save_document_registry:177 - Registry saved with 2 entries
+2025-08-28 10:57:23.643 | INFO     | app.agents.retrievers.company_mcp_retriever:_start_document_watcher:327 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies'
+2025-08-28 10:57:23.643 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:140 - CompanyRetrieverMCPClient initialized successfully
+2025-08-28 10:57:25.620 | INFO     | app.agents.retrievers.customer_mcp_retriever:_arun:443 - Retrieving documents for customer '21' with query: 'What is the customer ID?' from collection: 'customer_21_data'
+2025-08-28 10:57:25.685 | INFO     | app.agents.retrievers.customer_mcp_retriever:_retrieve_from_server:418 - Retrieved documents for customer '21' with query: 'What is the customer ID?...'
+2025-08-28 10:57:25.685 | INFO     | app.agents.retrievers.customer_mcp_retriever:_arun:449 - Document retrieval completed for customer '21' in 0.06s
+2025-08-28 10:57:25.686 | INFO     | __main__:main:146 - Response from name='customer_retriever_mcp_21' description='Retrieves and manages documents for customer 21' mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21') customer_id='21' collection_name='customer_21_data': 1. Content: Sống chất Hành trình cùng gen
+
+2. Content: Hình mẫu cá nhân BẠN ĐÃ SẴN SÀNG KHÁM PHÁ HÌNH MẪU PHÁT TRIỂN TỪ GEN CỦA MÌNH CHƯA? Hình mẫu cá nhân Khách hàng: Đoàn Quang Thư Barcode: 900085696876 Ngày xuất báo cáo: 6 tháng 6, 2025 GeneStory - Begin your health journey 5
+
+3. Content: Hình mẫu cá nhân Khách hàng: Đoàn Quang Thư Barcode: 900085696876 Ngày xuất báo cáo: 6 tháng 6, 2025 GeneStory - Begin your health journey 7
+
+4. Content: Customer 21 genetic results: BRCA1 negative, CFTR positive.
+
+5. Content: Customer 21 genetic results: BRCA1 negative, CFTR positive.
+
+
+2025-08-28 10:57:25.686 | INFO     | __main__:main:148 - Status from name='customer_retriever_mcp_21' description='Retrieves and manages documents for customer 21' mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21') customer_id='21' collection_name='customer_21_data': <coroutine object CustomerRetrieverMCPClient.get_status at 0x7233209dd140>
+2025-08-28 10:57:25.686 | INFO     | app.agents.retrievers.drug_mcp_retriever:_arun:375 - Retrieving documents for query: 'What are the side effects of aspirin?' from collection: 'drug_knowledge'
+2025-08-28 10:57:25.730 | INFO     | app.agents.retrievers.drug_mcp_retriever:_retrieve_from_server:350 - Retrieved documents for query: 'What are the side effects of aspirin?...'
+2025-08-28 10:57:25.731 | INFO     | app.agents.retrievers.drug_mcp_retriever:_arun:381 - Document retrieval completed in 0.04s
+2025-08-28 10:57:25.731 | INFO     | __main__:main:151 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs') default_collection='drug_knowledge': 1. Content: Dosage should be adjusted based on INR values and patient response.
+
+2. Content: Dosage should be adjusted based on INR values and patient response.
+
+3. Content: Dosage should be adjusted based on INR values and patient response.
+
+4. Content: Dosage should be adjusted based on INR values and patient response.
+
+5. Content: Loai Thuoc: bupropion Doi Tuong: Tất cả Mo ta: Bupropion và các chất chuyển hóa của nó (erythrohydrobupropion, threohydrobupropion và hydroxybupropion) là các chất ức chế enzym CYP2D6. Phan Loai: Cảnh báo Nguon: FDA-approved drug label Khuyen cao: Hiệu quả  Loai Thuoc: bupropion Doi Tuong: Tất cả Mo ta: Bupropion và các chất chuyển hóa của nó (erythrohydrobupropion, threohydrobupropion và hydroxybupropion) là các chất ức chế enzym CYP2D6. Phan Loai: Cảnh báo Nguon: FDA-approved drug label Khuyen cao: Hiệu quả  Loai Thuoc: flecainide Doi Tuong: Tất cả Mo ta: Đối với người mang kiểu hình này, nguy cơ gặp phải tác dụng phụ có thể cao hơn so với bình thường, do giảm hiệu suất chuyển đổi flecainide thành các chất chuyển hoá không có hoạt tính. Phan Loai: Cảnh báo Nguon: DPWG Khuyen cao: Độc tính
+
+
+2025-08-28 10:57:25.733 | INFO     | __main__:main:153 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs') default_collection='drug_knowledge': <coroutine object DrugRetrieverMCPClient.get_status at 0x7233207db790>
+2025-08-28 10:57:25.733 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_arun:389 - Retrieving genetic documents for query: 'What genetic information do we have?' from collection: 'genetic_knowledge'
+2025-08-28 10:57:25.777 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_retrieve_from_server:364 - Retrieved genetic documents for query: 'What genetic information do we have?...'
+2025-08-28 10:57:25.778 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_arun:395 - Genetic document retrieval completed in 0.04s
+2025-08-28 10:57:25.778 | INFO     | __main__:main:156 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics') default_collection='genetic_knowledge': 1. Content: | Insect, Apis mellifera aka  Honey Bee               | 1,770,000,000   |                                                               | | Fish, Tetraodon nigroviridis,  type of Puffer fish  | 385,000,000     | Smallest vertebrate  genome known                             | | Mammal, Homo sapiens 3,200,000,000                  |                 |                                                               | | Fish, Protopterus aethiopicus  aka Marbled lungfish | 130,000,000,000 | Largest vertebrate genome  known                              |
+
+2. Content: |                                                | Cá Vằn, (Zebra Fish, Danio rerio),  30000 genes 85% of the genes in  these little fish are the same as  yours. Researchers use them to  study the role of genes linked to  blood disease such as anemia  falciforme and heart disease.             | 85%                          | |                                                | Ruồi dấm ,  Drosophila melanogaster,  13600 genes For the past 100 years,  the fruit fly has been (Image: David  M.Phillips, Visuals Unlimited,Inc.)                                                                                               | 36%                          |    | Cây Arabidopsis thaliana, 25000  genes. This little plant, from the  mustard family, is used as a model  for the study of all flowering plants.  Scientistsuse its genes to study  hepatolenticular degeneration, a  disease causing copper to  accumulate in the human  liver.(Image: Wally Eberhart, Visuals  Unlimited, Inc.)   | 26%   |
+
+3. Content: | moss, Physcomitrella patens                         | 480,000,000     | First genome of a bryophyte,  January 2008 [11]               | | Yeast,Saccharomyces  cerevisiae                     | 12,100,000      | [12]                                                          | | Fungus, Aspergillusnidulans 30,000,000              |                 |                                                               | | Nematode, Caenorhabditis  elegans                   | 98,000,000      | First multicellular animal  genome,December 1998 [13]         | | Insect, Drosophila  melanogaster aka Fruit Fly      | 130,000,000     | [14]                                                          | | Insect, Bombyx mori aka Silk  Moth                  | 530,000,000     |                                                               | | Insect, Apis mellifera aka  Honey Bee               | 1,770,000,000   |                                                               |
+
+4. Content: | Bacterium, Escherichia coli 4,600,000 [8]           |                 |                                                               | |                                                     |                 | Amoeba, Amoeba dubia 670,000,000,000 Largest known genome.[9] | | Plant, Arabidopsis thaliana                         | 157,000,000     | First plant genome  sequenced, Dec 2000.[10]                  | | Plant, Genlisea margaretae                          | 63,400,000      | Smallest recorded  flowering plant genome,  2006.[10]         | | Plant, Fritillariaassyrica 130,000,000,000          |                 |                                                               | | Plant, Populus trichocarpa                          | 480,000,000     | First tree genome, Sept  2006                                 | | moss, Physcomitrella patens                         | 480,000,000     | First genome of a bryophyte,  January 2008 [11]               |
+
+5. Content: Gene therapy involves introducing genetic material into cells to treat or prevent disease.
+
+
+2025-08-28 10:57:25.778 | INFO     | __main__:main:158 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics') default_collection='genetic_knowledge': <coroutine object GeneticRetrieverMCPClient.get_status at 0x7233208233d0>
+2025-08-28 10:57:25.780 | INFO     | app.agents.retrievers.product_mcp_retriever:_arun:1148 - Query intent: simple_search, terms: ['what', 'products', 'are', 'stock']
+2025-08-28 10:57:25.829 | INFO     | app.agents.retrievers.product_mcp_retriever:_retrieve_from_mcp_server:875 - Retrieved MCP documents for query: 'What products are in stock?...'
+2025-08-28 10:57:25.830 | INFO     | app.agents.retrievers.product_mcp_retriever:_arun:1165 - Enhanced query processed in 0.05s: 'What products are in stock?' -> 5 results
+2025-08-28 10:57:25.831 | INFO     | __main__:main:161 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products') default_collection='product_knowledge': 1. 1. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+2. 2. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+3. 3. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+4. 4. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+5. 5. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+2025-08-28 11:02:30.676 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:02:30.677 | INFO     | app.agents.factory.mcp_retriever_factory:_create_company_retriever:124 - Creating CompanyRetrieverMCPClient
+2025-08-28 11:02:30.677 | ERROR    | app.agents.factory.mcp_retriever_factory:create_retriever:75 - Unknown MCP retriever type: drugs
+2025-08-28 11:02:30.677 | INFO     | app.agents.factory.mcp_retriever_factory:_create_genetic_retriever:118 - Creating GeneticRetrieverMCPClient
+2025-08-28 11:02:30.677 | INFO     | app.agents.factory.mcp_retriever_factory:_create_product_retriever:130 - Creating EnhancedProductRetrieverMCPClient
+2025-08-28 11:02:30.677 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 11:02:30.678 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 11:02:30.717 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:107 - Initializing GeneticRetrieverMCPClient...
+2025-08-28 11:02:30.717 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_load_document_registry:168 - Loaded 2 genetic document entries from registry
+2025-08-28 11:02:30.725 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:335 - Initializing EnhancedProductRetrieverMCPClient...
+2025-08-28 11:02:30.725 | INFO     | app.agents.retrievers.product_mcp_retriever:_load_document_registry:406 - Loaded 2 entries from registry
+2025-08-28 11:03:36.579 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:03:46.278 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:03:46.279 | INFO     | app.agents.factory.mcp_retriever_factory:_create_company_retriever:124 - Creating CompanyRetrieverMCPClient
+2025-08-28 11:03:46.279 | ERROR    | app.agents.factory.mcp_retriever_factory:create_retriever:75 - Unknown MCP retriever type: drugs
+2025-08-28 11:03:46.279 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 11:03:46.280 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 11:04:10.128 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:04:10.129 | INFO     | app.agents.factory.mcp_retriever_factory:_create_company_retriever:124 - Creating CompanyRetrieverMCPClient
+2025-08-28 11:04:10.129 | INFO     | app.agents.factory.mcp_retriever_factory:_create_drug_retriever:112 - Creating DrugRetrieverMCPClient
+2025-08-28 11:04:10.129 | INFO     | app.agents.factory.mcp_retriever_factory:_create_genetic_retriever:118 - Creating GeneticRetrieverMCPClient
+2025-08-28 11:04:10.130 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 11:04:10.130 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 11:04:10.169 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:107 - Initializing DrugRetrieverMCPClient...
+2025-08-28 11:04:10.170 | INFO     | app.agents.retrievers.drug_mcp_retriever:_load_document_registry:167 - Loaded 1 entries from registry
+2025-08-28 11:04:10.179 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:107 - Initializing GeneticRetrieverMCPClient...
+2025-08-28 11:04:10.179 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_load_document_registry:168 - Loaded 2 genetic document entries from registry
+2025-08-28 11:04:39.237 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:04:39.238 | INFO     | app.agents.factory.mcp_retriever_factory:_create_company_retriever:124 - Creating CompanyRetrieverMCPClient
+2025-08-28 11:04:39.238 | INFO     | app.agents.factory.mcp_retriever_factory:_create_drug_retriever:112 - Creating DrugRetrieverMCPClient
+2025-08-28 11:04:39.238 | INFO     | app.agents.factory.mcp_retriever_factory:_create_genetic_retriever:118 - Creating GeneticRetrieverMCPClient
+2025-08-28 11:04:39.238 | INFO     | app.agents.factory.mcp_retriever_factory:_create_product_retriever:130 - Creating EnhancedProductRetrieverMCPClient
+2025-08-28 11:04:39.239 | INFO     | __main__:main_v2:189 - Response from <function main_v2.<locals>.<lambda> at 0x7218102e13a0>: Error: Company retriever client is not initialized.
+2025-08-28 11:04:39.239 | INFO     | __main__:main_v2:190 - Response from <function main_v2.<locals>.<lambda> at 0x7218102e1440>: Error: Drug retriever client is not initialized.
+2025-08-28 11:04:39.239 | INFO     | __main__:main_v2:191 - Response from <function main_v2.<locals>.<lambda> at 0x7218102e14e0>: Error: Genetic retriever client is not initialized.
+2025-08-28 11:04:39.239 | INFO     | __main__:main_v2:192 - Response from <function main_v2.<locals>.<lambda> at 0x7218102e1580>: Error: Enhanced product retriever client is not initialized.
+2025-08-28 11:04:39.239 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 11:04:39.240 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 11:04:39.280 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:107 - Initializing DrugRetrieverMCPClient...
+2025-08-28 11:04:39.280 | INFO     | app.agents.retrievers.drug_mcp_retriever:_load_document_registry:167 - Loaded 1 entries from registry
+2025-08-28 11:04:39.292 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:107 - Initializing GeneticRetrieverMCPClient...
+2025-08-28 11:04:39.292 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_load_document_registry:168 - Loaded 2 genetic document entries from registry
+2025-08-28 11:04:39.303 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:335 - Initializing EnhancedProductRetrieverMCPClient...
+2025-08-28 11:04:39.303 | INFO     | app.agents.retrievers.product_mcp_retriever:_load_document_registry:406 - Loaded 2 entries from registry
+2025-08-28 11:09:59.177 | INFO     | app.agents.workflow.state:<module>:58 - ====== LangGraph State Defined. =======
+2025-08-28 11:09:59.178 | INFO     | __main__:main:86 - Creating customer retriever for customer ID: 21
+2025-08-28 11:09:59.178 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:133 - Initializing CustomerRetrieverMCPClient for customer '21'...
+2025-08-28 11:09:59.178 | INFO     | app.agents.retrievers.customer_mcp_retriever:_load_document_registry:192 - Loaded 1 entries from registry for customer '21'
+2025-08-28 11:09:59.226 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_test_server_connection:175 - MCP server connection test successful for customer '21'
+2025-08-28 11:09:59.227 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:156 - MCP server connection successful for customer '21'
+2025-08-28 11:09:59.227 | INFO     | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:359 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21 for customer '21' files
+2025-08-28 11:09:59.228 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_DoanQuangThu_900085696876_genestory_book.pdf
+2025-08-28 11:09:59.228 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:367 - Processing file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_DoanQuangThu_900085696876_genestory_book.pdf for customer '21'
+2025-08-28 11:09:59.237 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_data_mcp_registry.json
+2025-08-28 11:09:59.237 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_scan_and_process_all_files:363 - Found file: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21/customer_21_data_registry.json
+2025-08-28 11:09:59.237 | DEBUG    | app.agents.retrievers.customer_mcp_retriever:_save_document_registry:204 - Registry saved with 1 entries for customer '21'
+2025-08-28 11:09:59.238 | INFO     | app.agents.retrievers.customer_mcp_retriever:_start_document_watcher:397 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21' for customer '21'
+2025-08-28 11:09:59.238 | INFO     | app.agents.retrievers.customer_mcp_retriever:_initialize_all:167 - CustomerRetrieverMCPClient initialized successfully for customer '21'
+2025-08-28 11:10:01.180 | INFO     | __main__:main:96 - Creating drug retriever for collection: drug_knowledge
+2025-08-28 11:10:01.182 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:107 - Initializing DrugRetrieverMCPClient...
+2025-08-28 11:10:01.183 | INFO     | app.agents.retrievers.drug_mcp_retriever:_load_document_registry:167 - Loaded 1 entries from registry
+2025-08-28 11:10:01.235 | DEBUG    | app.agents.retrievers.drug_mcp_retriever:_test_server_connection:150 - MCP server connection test successful
+2025-08-28 11:10:01.237 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:131 - MCP server connection successful
+2025-08-28 11:10:01.237 | INFO     | app.agents.retrievers.drug_mcp_retriever:_scan_and_process_all_files:295 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs
+2025-08-28 11:10:01.238 | INFO     | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:274 - Change detected for 'drug_docs.json'. Processing...
+2025-08-28 11:10:01.239 | ERROR    | app.agents.retrievers.drug_mcp_retriever:_load_and_split_file:223 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs/registry/drug_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 11:10:01.239 | WARNING  | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:291 - No documents extracted from 'drug_docs.json'
+2025-08-28 11:10:01.239 | INFO     | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:274 - Change detected for 'drug_data.json'. Processing...
+2025-08-28 11:10:01.239 | ERROR    | app.agents.retrievers.drug_mcp_retriever:_load_and_split_file:223 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs/registry/drug_data.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 11:10:01.240 | WARNING  | app.agents.retrievers.drug_mcp_retriever:_process_file_if_needed:291 - No documents extracted from 'drug_data.json'
+2025-08-28 11:10:01.240 | DEBUG    | app.agents.retrievers.drug_mcp_retriever:_save_document_registry:179 - Registry saved with 1 entries
+2025-08-28 11:10:01.241 | INFO     | app.agents.retrievers.drug_mcp_retriever:_start_document_watcher:330 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs'
+2025-08-28 11:10:01.241 | INFO     | app.agents.retrievers.drug_mcp_retriever:_initialize_all:142 - DrugRetrieverMCPClient initialized successfully
+2025-08-28 11:10:03.183 | INFO     | __main__:main:108 - Creating genetic retriever for collection: genetic_knowledge
+2025-08-28 11:10:03.185 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:107 - Initializing GeneticRetrieverMCPClient...
+2025-08-28 11:10:03.186 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_load_document_registry:168 - Loaded 2 genetic document entries from registry
+2025-08-28 11:10:03.202 | DEBUG    | app.agents.retrievers.genetic_mcp_retriever:_test_server_connection:151 - MCP server connection test successful
+2025-08-28 11:10:03.203 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:132 - MCP server connection successful
+2025-08-28 11:10:03.203 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_scan_and_process_all_files:309 - Scanning genetic directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics
+2025-08-28 11:10:03.209 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:288 - Change detected for genetic file 'genetic_docs.json'. Processing...
+2025-08-28 11:10:03.209 | ERROR    | app.agents.retrievers.genetic_mcp_retriever:_load_and_split_file:238 - Error loading genetic file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics/registry/genetic_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 11:10:03.209 | WARNING  | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:305 - No genetic documents extracted from 'genetic_docs.json'
+2025-08-28 11:10:03.209 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:288 - Change detected for genetic file 'genetic_data.json'. Processing...
+2025-08-28 11:10:03.210 | ERROR    | app.agents.retrievers.genetic_mcp_retriever:_load_and_split_file:238 - Error loading genetic file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics/registry/genetic_data.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 11:10:03.210 | WARNING  | app.agents.retrievers.genetic_mcp_retriever:_process_file_if_needed:305 - No genetic documents extracted from 'genetic_data.json'
+2025-08-28 11:10:03.210 | DEBUG    | app.agents.retrievers.genetic_mcp_retriever:_save_document_registry:180 - Genetic registry saved with 2 entries
+2025-08-28 11:10:03.212 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_start_document_watcher:344 - Started genetic document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics'
+2025-08-28 11:10:03.212 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_initialize_all:143 - GeneticRetrieverMCPClient initialized successfully
+2025-08-28 11:10:05.187 | INFO     | __main__:main:123 - Creating product retriever for collection: product_knowledge
+2025-08-28 11:10:05.187 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:335 - Initializing EnhancedProductRetrieverMCPClient...
+2025-08-28 11:10:05.188 | INFO     | app.agents.retrievers.product_mcp_retriever:_load_document_registry:406 - Loaded 2 entries from registry
+2025-08-28 11:10:05.201 | DEBUG    | app.agents.retrievers.product_mcp_retriever:_test_server_connection:388 - MCP server connection test successful
+2025-08-28 11:10:05.202 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:365 - MCP server connection successful
+2025-08-28 11:10:05.202 | INFO     | app.agents.retrievers.product_mcp_retriever:_sync_database_products:508 - Syncing product database to vector store...
+2025-08-28 11:10:05.361 | INFO     | app.agents.retrievers.product_mcp_retriever:_upload_documents_to_server:492 - Server response: Successfully ingested 25 documents into collection 'product_knowledge'.
+2025-08-28 11:10:05.362 | INFO     | app.agents.retrievers.product_mcp_retriever:_sync_database_products:539 - Successfully synced 25 products to vector store
+2025-08-28 11:10:05.362 | INFO     | app.agents.retrievers.product_mcp_retriever:_scan_and_process_all_files:618 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products
+2025-08-28 11:10:05.363 | INFO     | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:597 - Change detected for 'extract_products_data.py'. Processing...
+2025-08-28 11:10:05.363 | WARNING  | app.agents.retrievers.product_mcp_retriever:_load_and_split_file:442 - Unsupported file type: .py
+2025-08-28 11:10:05.363 | WARNING  | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:614 - No documents extracted from 'extract_products_data.py'
+2025-08-28 11:10:05.363 | INFO     | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:597 - Change detected for 'product_docs.json'. Processing...
+2025-08-28 11:10:05.363 | ERROR    | app.agents.retrievers.product_mcp_retriever:_load_and_split_file:463 - Error loading file /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products/registry/product_docs.json: JSONLoader.__init__() missing 1 required positional argument: 'jq_schema'
+2025-08-28 11:10:05.364 | WARNING  | app.agents.retrievers.product_mcp_retriever:_process_file_if_needed:614 - No documents extracted from 'product_docs.json'
+2025-08-28 11:10:05.364 | DEBUG    | app.agents.retrievers.product_mcp_retriever:_save_document_registry:418 - Registry saved with 2 entries
+2025-08-28 11:10:05.364 | INFO     | app.agents.retrievers.product_mcp_retriever:_start_document_watcher:653 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products'
+2025-08-28 11:10:05.364 | INFO     | app.agents.retrievers.product_mcp_retriever:_initialize_all:380 - EnhancedProductRetrieverMCPClient initialized successfully
+2025-08-28 11:10:07.189 | INFO     | __main__:main:135 - Creating company retriever for collection: company_knowledge
+2025-08-28 11:10:07.190 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:105 - Initializing CompanyRetrieverMCPClient...
+2025-08-28 11:10:07.191 | INFO     | app.agents.retrievers.company_mcp_retriever:_load_document_registry:165 - Loaded 2 entries from registry
+2025-08-28 11:10:07.219 | DEBUG    | app.agents.retrievers.company_mcp_retriever:_test_server_connection:148 - MCP server connection test successful
+2025-08-28 11:10:07.221 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:129 - MCP server connection successful
+2025-08-28 11:10:07.222 | INFO     | app.agents.retrievers.company_mcp_retriever:_scan_and_process_all_files:292 - Scanning directory: /home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies
+2025-08-28 11:10:07.223 | DEBUG    | app.agents.retrievers.company_mcp_retriever:_save_document_registry:177 - Registry saved with 2 entries
+2025-08-28 11:10:07.224 | INFO     | app.agents.retrievers.company_mcp_retriever:_start_document_watcher:327 - Started document watcher on '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies'
+2025-08-28 11:10:07.224 | INFO     | app.agents.retrievers.company_mcp_retriever:_initialize_all:140 - CompanyRetrieverMCPClient initialized successfully
+2025-08-28 11:10:09.192 | INFO     | app.agents.retrievers.customer_mcp_retriever:_arun:443 - Retrieving documents for customer '21' with query: 'What is the customer ID?' from collection: 'customer_21_data'
+2025-08-28 11:10:09.243 | INFO     | app.agents.retrievers.customer_mcp_retriever:_retrieve_from_server:418 - Retrieved documents for customer '21' with query: 'What is the customer ID?...'
+2025-08-28 11:10:09.243 | INFO     | app.agents.retrievers.customer_mcp_retriever:_arun:449 - Document retrieval completed for customer '21' in 0.05s
+2025-08-28 11:10:09.243 | INFO     | __main__:main:146 - Response from name='customer_retriever_mcp_21' description='Retrieves and manages documents for customer 21' mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21') customer_id='21' collection_name='customer_21_data': 1. Content: Sống chất Hành trình cùng gen
+
+2. Content: Hình mẫu cá nhân BẠN ĐÃ SẴN SÀNG KHÁM PHÁ HÌNH MẪU PHÁT TRIỂN TỪ GEN CỦA MÌNH CHƯA? Hình mẫu cá nhân Khách hàng: Đoàn Quang Thư Barcode: 900085696876 Ngày xuất báo cáo: 6 tháng 6, 2025 GeneStory - Begin your health journey 5
+
+3. Content: Hình mẫu cá nhân Khách hàng: Đoàn Quang Thư Barcode: 900085696876 Ngày xuất báo cáo: 6 tháng 6, 2025 GeneStory - Begin your health journey 7
+
+4. Content: Customer 21 genetic results: BRCA1 negative, CFTR positive.
+
+5. Content: Customer 21 genetic results: BRCA1 negative, CFTR positive.
+
+
+2025-08-28 11:10:09.244 | INFO     | __main__:main:148 - Status from name='customer_retriever_mcp_21' description='Retrieves and manages documents for customer 21' mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/uploaded_files/documents/customer_21') customer_id='21' collection_name='customer_21_data': <coroutine object CustomerRetrieverMCPClient.get_status at 0x7aa46d7ef540>
+2025-08-28 11:10:09.244 | INFO     | app.agents.retrievers.drug_mcp_retriever:_arun:375 - Retrieving documents for query: 'What are the side effects of aspirin?' from collection: 'drug_knowledge'
+2025-08-28 11:10:09.286 | INFO     | app.agents.retrievers.drug_mcp_retriever:_retrieve_from_server:350 - Retrieved documents for query: 'What are the side effects of aspirin?...'
+2025-08-28 11:10:09.287 | INFO     | app.agents.retrievers.drug_mcp_retriever:_arun:381 - Document retrieval completed in 0.04s
+2025-08-28 11:10:09.287 | INFO     | __main__:main:151 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs') default_collection='drug_knowledge': 1. Content: Dosage should be adjusted based on INR values and patient response.
+
+2. Content: Dosage should be adjusted based on INR values and patient response.
+
+3. Content: Dosage should be adjusted based on INR values and patient response.
+
+4. Content: Dosage should be adjusted based on INR values and patient response.
+
+5. Content: Loai Thuoc: bupropion Doi Tuong: Tất cả Mo ta: Bupropion và các chất chuyển hóa của nó (erythrohydrobupropion, threohydrobupropion và hydroxybupropion) là các chất ức chế enzym CYP2D6. Phan Loai: Cảnh báo Nguon: FDA-approved drug label Khuyen cao: Hiệu quả  Loai Thuoc: bupropion Doi Tuong: Tất cả Mo ta: Bupropion và các chất chuyển hóa của nó (erythrohydrobupropion, threohydrobupropion và hydroxybupropion) là các chất ức chế enzym CYP2D6. Phan Loai: Cảnh báo Nguon: FDA-approved drug label Khuyen cao: Hiệu quả  Loai Thuoc: flecainide Doi Tuong: Tất cả Mo ta: Đối với người mang kiểu hình này, nguy cơ gặp phải tác dụng phụ có thể cao hơn so với bình thường, do giảm hiệu suất chuyển đổi flecainide thành các chất chuyển hoá không có hoạt tính. Phan Loai: Cảnh báo Nguon: DPWG Khuyen cao: Độc tính
+
+
+2025-08-28 11:10:09.288 | INFO     | __main__:main:153 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/drugs') default_collection='drug_knowledge': <coroutine object DrugRetrieverMCPClient.get_status at 0x7aa46d64f790>
+2025-08-28 11:10:09.288 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_arun:389 - Retrieving genetic documents for query: 'What genetic information do we have?' from collection: 'genetic_knowledge'
+2025-08-28 11:10:09.330 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_retrieve_from_server:364 - Retrieved genetic documents for query: 'What genetic information do we have?...'
+2025-08-28 11:10:09.331 | INFO     | app.agents.retrievers.genetic_mcp_retriever:_arun:395 - Genetic document retrieval completed in 0.04s
+2025-08-28 11:10:09.331 | INFO     | __main__:main:156 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics') default_collection='genetic_knowledge': 1. Content: | Insect, Apis mellifera aka  Honey Bee               | 1,770,000,000   |                                                               | | Fish, Tetraodon nigroviridis,  type of Puffer fish  | 385,000,000     | Smallest vertebrate  genome known                             | | Mammal, Homo sapiens 3,200,000,000                  |                 |                                                               | | Fish, Protopterus aethiopicus  aka Marbled lungfish | 130,000,000,000 | Largest vertebrate genome  known                              |
+
+2. Content: |                                                | Cá Vằn, (Zebra Fish, Danio rerio),  30000 genes 85% of the genes in  these little fish are the same as  yours. Researchers use them to  study the role of genes linked to  blood disease such as anemia  falciforme and heart disease.             | 85%                          | |                                                | Ruồi dấm ,  Drosophila melanogaster,  13600 genes For the past 100 years,  the fruit fly has been (Image: David  M.Phillips, Visuals Unlimited,Inc.)                                                                                               | 36%                          |    | Cây Arabidopsis thaliana, 25000  genes. This little plant, from the  mustard family, is used as a model  for the study of all flowering plants.  Scientistsuse its genes to study  hepatolenticular degeneration, a  disease causing copper to  accumulate in the human  liver.(Image: Wally Eberhart, Visuals  Unlimited, Inc.)   | 26%   |
+
+3. Content: | moss, Physcomitrella patens                         | 480,000,000     | First genome of a bryophyte,  January 2008 [11]               | | Yeast,Saccharomyces  cerevisiae                     | 12,100,000      | [12]                                                          | | Fungus, Aspergillusnidulans 30,000,000              |                 |                                                               | | Nematode, Caenorhabditis  elegans                   | 98,000,000      | First multicellular animal  genome,December 1998 [13]         | | Insect, Drosophila  melanogaster aka Fruit Fly      | 130,000,000     | [14]                                                          | | Insect, Bombyx mori aka Silk  Moth                  | 530,000,000     |                                                               | | Insect, Apis mellifera aka  Honey Bee               | 1,770,000,000   |                                                               |
+
+4. Content: | Bacterium, Escherichia coli 4,600,000 [8]           |                 |                                                               | |                                                     |                 | Amoeba, Amoeba dubia 670,000,000,000 Largest known genome.[9] | | Plant, Arabidopsis thaliana                         | 157,000,000     | First plant genome  sequenced, Dec 2000.[10]                  | | Plant, Genlisea margaretae                          | 63,400,000      | Smallest recorded  flowering plant genome,  2006.[10]         | | Plant, Fritillariaassyrica 130,000,000,000          |                 |                                                               | | Plant, Populus trichocarpa                          | 480,000,000     | First tree genome, Sept  2006                                 | | moss, Physcomitrella patens                         | 480,000,000     | First genome of a bryophyte,  January 2008 [11]               |
+
+5. Content: Gene therapy involves introducing genetic material into cells to treat or prevent disease.
+
+
+2025-08-28 11:10:09.332 | INFO     | __main__:main:158 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/genetics') default_collection='genetic_knowledge': <coroutine object GeneticRetrieverMCPClient.get_status at 0x7aa46d64fa60>
+2025-08-28 11:10:09.335 | INFO     | app.agents.retrievers.product_mcp_retriever:_arun:1148 - Query intent: simple_search, terms: ['what', 'products', 'are', 'stock']
+2025-08-28 11:10:09.382 | INFO     | app.agents.retrievers.product_mcp_retriever:_retrieve_from_mcp_server:875 - Retrieved MCP documents for query: 'What products are in stock?...'
+2025-08-28 11:10:09.382 | INFO     | app.agents.retrievers.product_mcp_retriever:_arun:1165 - Enhanced query processed in 0.05s: 'What products are in stock?' -> 5 results
+2025-08-28 11:10:09.383 | INFO     | __main__:main:161 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products') default_collection='product_knowledge': 1. 1. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+2. 2. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+3. 3. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+4. 4. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+
+5. 5. Content: Tên sản phẩm: genepxonco+ 5fu Loại sản phẩm: điều trị & sàng lọc Giá: 2,900,000  Thời gian xử lý: 14 ngày Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine Features (EN): drugs and fluoropyrimidine precursors Mô tả: Gói GenePxONCO+ 5fu có giá là 2900000. Gói GenePxONCO+ 5fu cu...
+2025-08-28 11:10:09.383 | INFO     | __main__:main:163 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products') default_collection='product_knowledge': {'initialized': True, 'mcp_server_url': 'http://192.168.1.60:50051/sse', 'watch_directory': '/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/products', 'default_collection': 'product_knowledge', 'database_sync_enabled': True, 'cache_enabled': True, 'tracked_files': 2, 'cache_size': 1, 'cache_max_size': 500}
+2025-08-28 11:10:09.383 | INFO     | app.agents.retrievers.company_mcp_retriever:_arun:372 - Retrieving documents for query: 'What companies are related to this customer?' from collection: 'company_knowledge'
+2025-08-28 11:10:09.427 | INFO     | app.agents.retrievers.company_mcp_retriever:_retrieve_from_server:347 - Retrieved documents for query: 'What companies are related to this customer?...'
+2025-08-28 11:10:09.428 | INFO     | app.agents.retrievers.company_mcp_retriever:_arun:378 - Document retrieval completed in 0.04s
+2025-08-28 11:10:09.428 | INFO     | __main__:main:166 - Response from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies') default_collection='company_knowledge': 1. Content: Company policy: All employees must follow safety guidelines.
+
+2. Content: Company policy: All employees must follow safety guidelines.
+
+3. Content: Đối với những người đang tìm kiếm một gói giải mã gen toàn diện, GeneMap-Combo bao gồm gói GeneMap và tất cả các tính năng bổ sung (GeneMap Combo không bao gồm GeneMark) Embedded Link: No link provided
+
+4. Content: Website: [GeneStory](https://genestory.ai) Hotline: 1800 888 680 Embedded Link: No link provided
+
+5. Content: opic: Địa chỉ và liên hệ Summary: Cách thức liên hệ, văn phòng, email, số điện thoại, website, các kênh liên lạc khác của công ty, địa chỉ, tên của công ty Description: Công ty GeneStory: - Địa chỉ: Tòa nhà văn phòng Symphony, Đường Chu Huy Mân, KĐT sinh thái Vinhomes Riverside, Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội, Việt Nam - Văn phòng liên hệ: Tầng 8, Toà nhà Century, Khu đô thị Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội - Email: support@genestory.ai - Hotline: 1800 888 680 - Website: [GeneStory](https://genestory.ai) Embedded Link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.868256076736!2d105.86583201520843!3d20.99791748601518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad64eb34861b%3A0xa1fdbb5521b6e288!2sBig%20Data%20Institute%20-%20Vingroup!5e0!3m2!1svi!2s!4v1590487059318!5m2!1svi!2s
+
+
+2025-08-28 11:10:09.428 | INFO     | __main__:main:168 - Status from mcp_server_url='http://192.168.1.60:50051/sse' watch_directory=PosixPath('/home/datpd1/genstory/agentic-genestory-platform/agentic-gst-chatbot/backend/app/agents/retrievers/storages/companies') default_collection='company_knowledge': <coroutine object CompanyRetrieverMCPClient.get_status at 0x7aa46d64c400>

@@ -1,0 +1,415 @@
+"""
+Request Queue Management for Customer API
+This module provides a queue system for handling customer requests,
+similar to what we've implemented for employee and guest workflows.
+"""
+import asyncio
+import time
+import uuid
+from typing import Dict, Any, Optional, Tuple, AsyncGenerator
+from datetime import datetime
+from enum import Enum
+from dataclasses import dataclass, field
+from loguru import logger
+from fastapi import HTTPException, status
+
+class RequestStatus(Enum):
+    QUEUED = "queued"
+    PROCESSING = "processing"
+    COMPLETED = "completed"
+    FAILED = "failed"
+    TIMEOUT = "timeout"
+
+@dataclass
+class QueuedCustomerRequest:
+    request_id: str
+    customer_id: str
+    query: str
+    session_id: Optional[str]
+    chat_history: Optional[list]
+    timestamp: float = field(default_factory=time.time)
+    status: RequestStatus = RequestStatus.QUEUED
+    future: asyncio.Future = field(default_factory=asyncio.Future)
+    start_time: Optional[float] = None
+    end_time: Optional[float] = None
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    priority: bool = False  # Whether this is a priority request
+
+class CustomerRequestQueue:
+    """
+    Queue system for handling customer requests to prevent overload
+    and provide fair scheduling.
+    """
+    def __init__(self, max_concurrent: int = 3, max_queue_size: int = 50, request_timeout: int = 60):
+        self.max_concurrent = max_concurrent
+        self.max_queue_size = max_queue_size
+        self.request_timeout = request_timeout  # seconds
+        self.queue = asyncio.Queue(maxsize=max_queue_size)
+        self.active_requests = {}
+        self.request_history = {}
+        self.stats = {
+            'total_requests': 0,
+            'completed_requests': 0,
+            'failed_requests': 0,
+            'timeout_requests': 0,
+            'current_queue_size': 0,
+            'active_requests': 0,
+            'avg_processing_time_sec': 0
+        }
+        self._workers_started = False
+        self._customer_workflow = None
+        
+        logger.info(f"Customer Request Queue initialized with max_concurrent={max_concurrent}, max_queue_size={max_queue_size}")
+    
+    def set_workflow(self, workflow):
+        """Set the customer workflow instance for processing requests"""
+        self._customer_workflow = workflow
+        logger.info("Customer workflow set for request queue")
+        return self
+    
+    async def start_workers(self):
+        """Start background workers to process queued requests"""
+        if self._workers_started or not self._customer_workflow:
+            return
+        
+        self._workers_started = True
+        
+        # Start worker tasks
+        for i in range(self.max_concurrent):
+            asyncio.create_task(self._worker(f"customer-worker-{i}"))
+        
+        logger.info(f"Started {self.max_concurrent} customer request processing workers")
+    
+    async def _worker(self, worker_id: str):
+        """Background worker to process requests from the queue"""
+        logger.info(f"Customer request worker {worker_id} started")
+        
+        while True:
+            try:
+                # Get request from queue
+                queued_request: QueuedCustomerRequest = await self.queue.get()
+                
+                if queued_request is None:  # Shutdown signal
+                    logger.info(f"Worker {worker_id} received shutdown signal")
+                    break
+                
+                logger.info(f"Worker {worker_id} processing request {queued_request.request_id} for customer {queued_request.customer_id}")
+                
+                # Update status
+                queued_request.status = RequestStatus.PROCESSING
+                queued_request.start_time = time.time()
+                self.active_requests[queued_request.request_id] = queued_request
+                
+                # Start timeout checker
+                timeout_task = asyncio.create_task(self._check_timeout(
+                    queued_request, 
+                    self.request_timeout
+                ))
+                
+                try:
+                    # Process the request with proper configuration
+                    config = {
+                        "configurable": {
+                            "thread_id": queued_request.session_id or f"customer-{queued_request.customer_id}-{time.time()}"
+                        }
+                    }
+                    
+                    if not self._customer_workflow:
+                        logger.error(f"Customer workflow not set for request {queued_request.request_id}")
+                        queued_request.status = RequestStatus.FAILED
+                        if not queued_request.future.done():
+                            error_message = "Workflow not initialized. Please try again later."
+                            queued_request.future.set_exception(
+                                RuntimeError(error_message)
+                            )
+                        continue
+                    
+                    # Get the streaming generator from workflow
+                    results_generator = self._customer_workflow.arun_streaming(
+                        queued_request.query, 
+                        config,
+                        customer_id=queued_request.customer_id,
+                        chat_history=queued_request.chat_history
+                    )
+                    
+                    # Set the result in the future
+                    queued_request.future.set_result(results_generator)
+                    
+                    # Cancel the timeout task as it's no longer needed
+                    timeout_task.cancel()
+                    
+                except Exception as e:
+                    logger.error(f"Error processing request {queued_request.request_id}: {str(e)}", exc_info=True)
+                    queued_request.status = RequestStatus.FAILED
+                    
+                    # Set exception in future if not already done
+                    if not queued_request.future.done():
+                        queued_request.future.set_exception(e)
+                    
+                    # Try to cancel timeout task
+                    if timeout_task and not timeout_task.done():
+                        timeout_task.cancel()
+                        
+                finally:
+                    # Mark task as done regardless of outcome
+                    self.queue.task_done()
+                    
+                    # Move to history after processing
+                    queued_request.end_time = time.time()
+                    
+                    # Update stats
+                    if queued_request.status == RequestStatus.COMPLETED:
+                        self.stats['completed_requests'] += 1
+                    elif queued_request.status == RequestStatus.FAILED:
+                        self.stats['failed_requests'] += 1
+                    
+                    # Calculate average processing time
+                    if queued_request.start_time and queued_request.end_time:
+                        process_time = queued_request.end_time - queued_request.start_time
+                        
+                        # Update running average
+                        curr_avg = self.stats['avg_processing_time_sec']
+                        completed = self.stats['completed_requests']
+                        
+                        if completed > 0:
+                            self.stats['avg_processing_time_sec'] = (
+                                (curr_avg * (completed - 1) + process_time) / completed
+                            )
+                    
+                    # Remove from active and store in history
+                    if queued_request.request_id in self.active_requests:
+                        del self.active_requests[queued_request.request_id]
+                    
+                    # Add to history
+                    self.request_history[queued_request.request_id] = queued_request
+                    
+                    # Keep only last 100 requests in history
+                    if len(self.request_history) > 100:
+                        oldest_key = min(self.request_history.keys(), 
+                                      key=lambda k: self.request_history[k].timestamp)
+                        del self.request_history[oldest_key]
+                        
+            except Exception as e:
+                logger.error(f"Worker {worker_id} encountered error: {str(e)}", exc_info=True)
+                await asyncio.sleep(1)  # Brief pause before retrying
+    
+    async def _check_timeout(self, request: QueuedCustomerRequest, timeout_sec: int):
+        """Check if a request has timed out and handle it"""
+        try:
+            await asyncio.sleep(timeout_sec)
+            # If we get here, the request has timed out
+            if request.status == RequestStatus.PROCESSING:
+                logger.warning(f"Request {request.request_id} timed out after {timeout_sec}s")
+                request.status = RequestStatus.TIMEOUT
+                self.stats['timeout_requests'] += 1
+                
+                # Create a timeout event and pass it to the future if not already done
+                if not request.future.done():
+                    timeout_event = self._create_timeout_event(request)
+                    request.future.set_result(timeout_event)
+        except asyncio.CancelledError:
+            # Normal cancellation when request completes before timeout
+            pass
+        except Exception as e:
+            logger.error(f"Error in timeout handler: {str(e)}", exc_info=True)
+    
+    def _create_timeout_event(self, request: QueuedCustomerRequest) -> AsyncGenerator:
+        """Create a timeout event generator for a request that has timed out"""
+        async def timeout_generator():
+            # Yield a timeout notification event
+            yield {
+                "event": "timeout",
+                "data": {
+                    "message": f"Request timed out after {self.request_timeout} seconds",
+                    "request_id": request.request_id,
+                    "customer_id": request.customer_id,
+                    "query": request.query[:50] + "..." if len(request.query) > 50 else request.query
+                },
+                "metadata": {
+                    "timestamp": datetime.now().isoformat(),
+                }
+            }
+            
+            # Generate a simple fallback response
+            yield {
+                "event": "answer_chunk",
+                "data": "I'm sorry, but I'm currently experiencing high demand and couldn't process your request in time. Please try again in a moment.",
+                "metadata": {
+                    "is_fallback": True
+                }
+            }
+            
+            # Final event
+            yield {
+                "event": "final_result",
+                "data": {
+                    "status": "timeout",
+                    "message": "Request processing timed out",
+                    "suggested_questions": [
+                        "Can you try a simpler question?",
+                        "Would you like to try again later?"
+                    ]
+                },
+                "metadata": {
+                    "timestamp": datetime.now().isoformat(),
+                }
+            }
+            
+        return timeout_generator()
+    
+    async def enqueue_request(self, query: str, customer_id: str, session_id: str = None, chat_history: list = None, priority: bool = False) -> Tuple[str, asyncio.Future]:
+        """
+        Add a customer request to the processing queue
+        
+        Args:
+            query: The user's query string
+            customer_id: ID of the customer user
+            session_id: Current session ID 
+            chat_history: Optional chat history for context
+            priority: Whether this request should be prioritized
+            
+        Returns:
+            Tuple of request ID and future that will contain the result generator
+        """
+        # Auto-start workers if they haven't been started yet and we have a workflow
+        if not self._workers_started and self._customer_workflow:
+            logger.info("Auto-starting customer queue workers before enqueueing request")
+            await self.start_workers()
+            
+        if self.queue.full():
+            raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, 
+                               detail="Request queue is full. Please try again later.")
+        
+        request_id = str(uuid.uuid4())
+        queued_request = QueuedCustomerRequest(
+            request_id=request_id,
+            customer_id=customer_id,
+            query=query,
+            session_id=session_id,
+            chat_history=chat_history,
+            priority=priority
+        )
+        
+        try:
+            # Handle priority requests by putting them at the front of the queue
+            if priority:
+                # For priority, create a new temporary queue with this request first
+                temp_queue = asyncio.Queue(maxsize=self.max_queue_size)
+                await temp_queue.put(queued_request)
+                
+                # Move items from original queue to temp queue
+                while not self.queue.empty():
+                    item = self.queue.get_nowait()
+                    await temp_queue.put(item)
+                
+                # Replace queue
+                self.queue = temp_queue
+                logger.info(f"Priority request {request_id} added to front of queue")
+            else:
+                await self.queue.put(queued_request)
+                
+            self.stats['total_requests'] += 1
+            self.stats['current_queue_size'] = self.queue.qsize()
+            
+            logger.info(f"Enqueued customer request {request_id}, queue size: {self.queue.qsize()}, priority: {priority}")
+            return request_id, queued_request.future
+            
+        except asyncio.QueueFull:
+            raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, 
+                              detail="Request queue is full. Please try again later.")
+    
+    def get_request_status(self, request_id: str) -> dict:
+        """Get status of a specific request"""
+        if request_id in self.active_requests:
+            req = self.active_requests[request_id]
+            position = -1  # Not known precisely without scanning the queue
+            
+            return {
+                "request_id": request_id,
+                "customer_id": req.customer_id,
+                "status": req.status.value,
+                "queued_at": req.timestamp,
+                "started_at": req.start_time,
+                "position_in_queue": position,
+                "elapsed_time": time.time() - (req.start_time or req.timestamp)
+            }
+        elif request_id in self.request_history:
+            req = self.request_history[request_id]
+            return {
+                "request_id": request_id,
+                "customer_id": req.customer_id,
+                "status": req.status.value,
+                "queued_at": req.timestamp,
+                "started_at": req.start_time,
+                "completed_at": req.end_time,
+                "processing_time": (req.end_time - req.start_time) if req.end_time and req.start_time else None,
+                "priority": req.priority
+            }
+        else:
+            return {"error": "Request not found"}
+    
+    def get_queue_stats(self) -> dict:
+        """Get current queue statistics"""
+        return {
+            **self.stats,
+            "current_queue_size": self.queue.qsize(),
+            "active_requests": len(self.active_requests),
+            "request_history_size": len(self.request_history),
+            "workers_started": self._workers_started,
+            "max_concurrent": self.max_concurrent,
+            "max_queue_size": self.max_queue_size,
+            "timestamp": datetime.now().isoformat()
+        }
+    
+    async def cancel_request(self, request_id: str, customer_id: str = None) -> bool:
+        """
+        Cancel a request if it's still in the queue
+        
+        Args:
+            request_id: The ID of the request to cancel
+            customer_id: If provided, ensure it matches the request's customer_id
+            
+        Returns:
+            True if request was cancelled, False otherwise
+        """
+        if request_id not in self.active_requests:
+            return False
+        
+        req = self.active_requests[request_id]
+        
+        # Check if customer_id matches if provided
+        if customer_id and req.customer_id != customer_id:
+            return False
+        
+        # Set a cancellation event
+        if not req.future.done():
+            req.status = RequestStatus.FAILED
+            req.future.set_exception(asyncio.CancelledError(f"Request {request_id} was cancelled"))
+            
+        # Move to history
+        req.end_time = time.time()
+        self.request_history[request_id] = req
+        del self.active_requests[request_id]
+        
+        return True
+    
+    async def shutdown(self):
+        """Gracefully shut down the queue processing"""
+        logger.info("Shutting down customer request queue...")
+        
+        # Send shutdown signal to all workers
+        for _ in range(self.max_concurrent):
+            await self.queue.put(None)
+        
+        # Mark remaining requests as failed
+        for req_id, req in self.active_requests.items():
+            if not req.future.done():
+                req.status = RequestStatus.FAILED
+                req.future.set_exception(Exception("Queue system shutting down"))
+        
+        self._workers_started = False
+        logger.info("Customer request queue shutdown complete")
+
+
+# Singleton instance of the queue for use throughout the API
+customer_request_queue = CustomerRequestQueue()

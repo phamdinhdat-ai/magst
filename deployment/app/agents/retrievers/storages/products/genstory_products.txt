@@ -1,0 +1,298 @@
+Thong tin sản phẩm:
+
+Tên sản phẩm: genemap-kid
+Loại: sản phẩm chính
+Giá: 4,800,000 
+Đối tượng: trẻ em
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Kid (dành cho trẻ em) có giá là 4.800.000 cung cấp các thông tin sau:
+- Mô hình tính cách big5: Bất ổn cảm xúc, Cởi mở, Dễ chịu, Hướng nội - Hướng ngoại, Tận tâm - Thận trọng
+- RIASEC: Người hành động, Người trợ giúp, Nhà sáng tạo, Nhà tư tưởng, Người thương thuyết, Nhà tổ chức.
+- 8 nhóm thông minh (Gardner): Không gian - thị giác, Toán học - logic, Âm nhạc, Ngôn ngữ, Thể chất, Xã hội, Nội tâm, Tự nhiên.
+- Hồ sơ gen trọn đời về đáp ứng thuốc 170+ loại thuốc dùng trong điều trị 20 nhóm bệnh: thuốc gây mê, chống nôn, điều trị gout, chống nhiễm trùng, chống viêm giảm đau, điều trị ung thư, tim mạch, tiểu đường, tâm thần…
+Tính năng: GeneMap-Kid
+ - mô hình tính cách big5
+ - hình mẫu phát triển theo mô hình RIASEC
+ - 8 nhóm thông minh theo mô hình gardner (23 tính trạng)
+ - đáp ứng thuốc 170+ dược chất
+
+Tên sản phẩm: genemap-adult
+Loại: sản phẩm chính
+Giá: 4,800,000 
+Đối tượng: người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Adult (dành cho người lớn) có giá là 4.800.000 cung cấp các thông tin sau:
+- Mô hình tính cách big5: Bất ổn cảm xúc, Cởi mở, Dễ chịu, Hướng nội - Hướng ngoại, Tận tâm - Thận trọn
+- RIASEC: Người hành động, Người trợ giúp, Nhà sáng tạo, Nhà tư tưởng, Người thương thuyết, Nhà tổ chức.
+- Dự báo nguy cơ mắc các bệnh: Ung thư vú, Ung thư đại trực tràng, Gút, Cao huyết áp, Động mạch vành, Rung tâm nhĩ và đưa ra khuyến nghị lối sống và tầm soát định kỳ dựa trên kết quả báo cáo.
+- Hồ sơ gen trọn đời về đáp ứng thuốc 170+ loại thuốc dùng trong điều trị 20 nhóm bệnh: thuốc gây mê, chống nôn, điều trị gout, chống nhiễm trùng, chống viêm giảm đau, điều trị ung thư, tim mạch, tiểu đường, tâm thần…
+Tính năng: GeneMap-Adult:
+ - mô hình tính cách big5   
+ - hình mẫu phát triển theo mô hình RIASEC
+ - nguy cơ bệnh: ung thư đại trực tràng và ung thư vú, gout, cao huyết áp, động mạch vành, rung tâm nhĩ
+ - đáp ứng thuốc 170+ dược chất
+
+Tên sản phẩm: genemap-td2
+Loại: gói mở rộng
+Giá: 1,200,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-TD2 cung cấp các chỉ số về nguy cơ mắc bệnh Đái tháo đường típ 2 do gen.
+Giá: 1.200.000
+Tính năng: nguy cơ và biến chứng tiểu đường
+
+Tên sản phẩm: genemap-fitness
+Loại: gói mở rộng
+Giá: 1,250,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Fitness cung cấp 24 chỉ số về thể chất và luyện tập.
+Giá: 1.250.000
+Tính năng: 24 chỉ số về thể chất & tập luyện (với trẻ em có thêm chiều cao)
+
+Tên sản phẩm: genemap-nutri
+Loại: gói mở rộng
+Giá: 1,700,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Nutri cung cấp 17 chỉ số về dinh dưỡng thuộc các nhóm:
+- Khoáng chất
+- Chất đa lượng
+- Vitamin
+Giá: 1.700.000
+Tính năng: 17 chỉ số về dinh dưỡng
+
+Tên sản phẩm: genemap-skin
+Loại: gói mở rộng
+Giá: 1,500,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Skin cung cấp 15 chỉ số về sức khỏe làn da thuộc các nhóm:
+- Sức khỏe làn da
+- Xu hướng lão hóa
+- Sắc tố da
+Giá: 1.500.000
+Tính năng: 15 chỉ số về sức khỏe làn da
+
+Tên sản phẩm: genemap-mental
+Loại: gói mở rộng
+Giá: 400,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Mental cung cấp 4 chỉ số về nguy cơ bệnh lý tinh thần bao gồm:
+- Khuynh hướng lo lắng
+- Sức bật tinh thần
+- Kiểm soát cơn giận
+- Hạnh phúc
+- Cảm xúc theo mùa
+- Nhạy cảm với từ chối xã hội
+Giá: 400.000
+Tính năng: 4 chỉ số về nguy cơ bệnh lý tinh thần
+
+Tên sản phẩm: genemap-ancestor
+Loại: gói mở rộng
+Giá: 500,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap-Ancestor cung cấp thông tin về nguồn gốc tổ tiên.
+Giá: 500.000
+Tính năng: nguồn gốc tổ tiên
+
+Tên sản phẩm: genemap-combo
+Loại: sản phẩm chính
+Giá: 10,000,000 
+Đối tượng: trẻ em,người lớn
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói giải mã gen GeneMap Combo bao gồm tất cả các tính trạng của gói GeneMap-Kid hoặc GeneMap-Adult và tất cả các tính trạng mở rộng.
+Giá: 10.000.000
+Tính năng: gói bao gồm tất cả các tính trạng của gói GeneMap-Kid hoặc GeneMap-Adult) và tất cả các tính trạng mở rộng
+
+Tên sản phẩm: genemark
+Loại: thẻ
+Giá: 1,000,000 
+Đối tượng: trẻ em,người lớn
+Công nghệ: -
+Tóm tắt: Thẻ Genemark Genestory là một sản phẩm mới được phát triển bởi Genestory để giúp người dùng truy cập và quản lý dữ liệu gen của họ một cách dễ dàng hơn. Thẻ này có thể được sử dụng để lưu trữ và chia sẻ dữ liệu gen, cũng như để truy cập các dịch vụ phân tích gen của Genestory.
+
+Dưới đây là một số tính năng chính của thẻ Genemark Genestory:
+
+- Lưu trữ dữ liệu gen: Thẻ Genemark Genestory cho phép bạn lưu trữ dữ liệu gen của bạn một cách an toàn và bảo mật. Dữ liệu của bạn được mã hóa và lưu trữ trên các máy chủ an toàn của Genestory.
+- Chia sẻ dữ liệu gen: Bạn có thể dễ dàng chia sẻ dữ liệu gen của bạn với những người khác, chẳng hạn như bác sĩ, nhà nghiên cứu hoặc các thành viên gia đình.
+- Truy cập các dịch vụ phân tích gen: Thẻ Genemark Genestory cho phép bạn truy cập các dịch vụ phân tích gen của Genestory, chẳng hạn như phân tích nguy cơ mắc bệnh, phân tích tổ tiên và phân tích di truyền.
+
+Thẻ GeneMark được bán với giá 1.000.000 VND
+Tính năng: thẻ gen genemark - dấu gen độc bản của mỗi người, một sáng tạo độc quyền của genestory, hình hóa sự độc đáo trong bộ gen của chủ thể.
+
+Tên sản phẩm: genepx1 ap
+Loại: điều trị & sàng lọc
+Giá: 1,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 AP có giá là 1800000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 3 ngày.
+Gói GenePx1 AP cung cấp các thông tin sau:
+tập trung vào thuốc điều trị chống kết tập tiểu cầu
+Tính năng: tập trung vào thuốc điều trị chống kết tập tiểu cầu
+
+Tên sản phẩm: genepx1 ap+
+Loại: điều trị & sàng lọc
+Giá: 2,500,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePx1 AP+ có giá là 2500000.
+Gói GenePx1 AP+ cung cấp các thông tin sau:
+tập trung vào thuốc điều trị chống kết tập tiểu cầu
+Tính năng: tập trung vào thuốc điều trị chống kết tập tiểu cầu
+
+Tên sản phẩm: genepx1 allo
+Loại: điều trị & sàng lọc
+Giá: 1,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 ALLO có giá là 1800000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 7 ngày.
+Gói GenePx1 ALLO cung cấp các thông tin sau:
+tập trung vào thuốc điều trị gout ALLOpurinol
+Tính năng: tập trung vào thuốc điều trị gout allopurinol
+
+Tên sản phẩm: genepx1 aad
+Loại: điều trị & sàng lọc
+Giá: 1,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 AAD có giá là 1800000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 7 ngày.
+Gói GenePx1 AAD cung cấp các thông tin sau:
+tập trung vào thuốc điều trị động kinh
+Tính năng: tập trung vào thuốc điều trị động kinh
+
+Tên sản phẩm: genepx1 nsaid
+Loại: điều trị & sàng lọc
+Giá: 1,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 NSAID có giá là 1800000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 7 ngày.
+Gói GenePx1 NSAID cung cấp các thông tin sau:
+tập trung vào thuốc chống viêm giảm đau không chứa steroid
+Tính năng: tập trung vào thuốc chống viêm giảm đau không chứa steroid
+
+Tên sản phẩm: genepx1 pa
+Loại: điều trị & sàng lọc
+Giá: 2,200,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 PA có giá là 2200000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 7 ngày.
+Gói GenePx1 PA cung cấp các thông tin sau:
+Combo xét nghiệm đáp ứng thuốc clopidogrel và PPI
+Tính năng: combo xét nghiệm đáp ứng thuốc clopidogrel và ppi
+
+Tên sản phẩm: genepx1 ppi
+Loại: điều trị & sàng lọc
+Giá: 1,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 7
+Công nghệ: pcr
+Tóm tắt: Gói GenePx1 PPI có giá là 1800000 với công nghệ xét nghiệm pcr và thời gian trả kết quả là 7 ngày.
+Gói GenePx1 PPI cung cấp các thông tin sau:
+tập trung vào thuốc điều hoà axit dạ dày
+Tính năng: tập trung vào thuốc điều hoà axit dạ dày
+
+Tên sản phẩm: genepxpsy+ toàn diện
+Loại: điều trị & sàng lọc
+Giá: 3,800,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxPSY+ toàn diện có giá là 3800000.
+Gói GenePxPSY+ toàn diện cung cấp các thông tin sau:
+khả năng đáp ứng các thuốc tâm thần kinh
+Tính năng: khả năng đáp ứng các thuốc tâm thần kinh
+
+Tên sản phẩm: genepxpsy+ chống động kinh
+Loại: điều trị & sàng lọc
+Giá: 3,300,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxPSY+ chống động kinh có giá là 3300000.
+Gói GenePxPSY+ chống động kinh cung cấp các thông tin sau:
+tập trung vào thuốc chống động kinh
+Tính năng: tập trung vào thuốc chống động kinh
+
+Tên sản phẩm: genepxpsy+ chống loạn thần
+Loại: điều trị & sàng lọc
+Giá: 2,900,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxPSY+ chống loạn thần có giá là 2900000.
+Gói GenePxPSY+ chống loạn thần cung cấp các thông tin sau:
+tập trung vào thuốc chống loạn thần
+Tính năng: tập trung vào thuốc chống loạn thần
+
+Tên sản phẩm: genepxpsy+ chống trầm cảm
+Loại: điều trị & sàng lọc
+Giá: 3,300,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxPSY+ chống trầm cảm có giá là 3300000.
+Gói GenePxPSY+ chống trầm cảm cung cấp các thông tin sau:
+tập trung vào thuốc chống trầm cảm
+Tính năng: tập trung vào thuốc chống trầm cảm
+
+Tên sản phẩm: genepxpsy+ l.a.s
+Loại: điều trị & sàng lọc
+Giá: 3,300,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxPSY+ l.a.s có giá là 3300000.
+Gói GenePxPSY+ l.a.s cung cấp các thông tin sau:
+tập trung vào thuốc điều trị sa sút trí tuệ, lo âu và adhd
+Tính năng: tập trung vào thuốc điều trị sa sút trí tuệ, lo âu và adhd
+
+Tên sản phẩm: genepxonco+ toàn diện
+Loại: điều trị & sàng lọc
+Giá: 3,600,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxONCO+ toàn diện có giá là 3600000.
+Gói GenePxONCO+ toàn diện cung cấp các thông tin sau:
+tập trung vào các thuốc điều trị ung thư
+Tính năng: tập trung vào các thuốc điều trị ung thư
+
+Tên sản phẩm: genepxonco+ liệu pháp nội tiết
+Loại: điều trị & sàng lọc
+Giá: 2,900,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxONCO+ liệu pháp nội tiết có giá là 2900000.
+Gói GenePxONCO+ liệu pháp nội tiết cung cấp các thông tin sau:
+tập trung vào thuốc điều trị dự phòng ung thư vú
+Tính năng: tập trung vào thuốc điều trị dự phòng ung thư vú
+
+Tên sản phẩm: genepxonco+ 5fu
+Loại: điều trị & sàng lọc
+Giá: 2,900,000 
+Đối tượng: bệnh viện
+Thời gian làm việc: 14
+Công nghệ: snp microarray
+Tóm tắt: Gói GenePxONCO+ 5fu có giá là 2900000.
+Gói GenePxONCO+ 5fu cung cấp các thông tin sau:
+tập trung vào thuốc và tiền chất fluoropyrimidine
+Tính năng: tập trung vào thuốc và tiền chất fluoropyrimidine

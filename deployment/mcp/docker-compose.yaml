@@ -1,0 +1,67 @@
+version: "3.8"
+services:
+  db:
+    image: ankane/pgvector:latest
+    container_name: local_pgdb
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-vectordb}
+    volumes:
+      - local_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4_container
+    restart: always
+    ports:
+      - "8888:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    depends_on:
+      - db
+
+  mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mcp_server
+    restart: always
+    ports:
+      - "${MCP_PORT:-50051}:50051"
+    environment:
+      - DB_URL=postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-vectordb}
+      - MCP_HOST=0.0.0.0
+      - MCP_PORT=50051
+      - DEVICE=${DEVICE:-cpu}
+      - HF_TONKEN=${HF_TOKEN}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-AITeamVN/Vietnamese_Embedding_v2}
+      - RERANKING_MODEL=${RERANKING_MODEL:-AITeamVN/Vietnamese_Reranker}
+    volumes:
+      - ./:/app
+      - huggingface_cache:/root/.cache/huggingface
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:50051/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  local_pgdata:
+  pgadmin-data:
+  huggingface_cache:

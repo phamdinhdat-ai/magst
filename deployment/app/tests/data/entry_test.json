@@ -1,0 +1,292 @@
+[
+    {
+        "query": "Tôi muốn biết về các gói xét nghiệm gen",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "GeneticAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi cần tư vấn về di truyền học",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "GeneticAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi muốn biết về các gói xét nghiệm gen cho trẻ em",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "GeneticAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tóm tắt giúp tôi nội dung báo cáo di truyền",
+        "expected_output": {
+            "intents": "summary",
+            "classified_agent": "CustomerAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Xin chào, tôi mới biết đến GeneStory",
+        "expected_output": {
+            "intents": "greeting",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "So sánh giúp tôi bộ test A và B",
+        "expected_output": {
+            "intents": "product",
+            "classified_agent": "ProductAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Mình là nhân viên, cần chính sách nghỉ phép",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "EmployeeAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Thời tiết hôm nay ở Hà Nội thế nào?",
+        "expected_output": {
+            "intents": "searchweb",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi muốn biết về tương tác thuốc A và B",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "DrugAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Công ty GeneStory thành lập khi nào?",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "CompanyAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Giải thích giúp tôi kết quả hình ảnh này",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "VisualAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi muốn biết tôi thuộc nhóm gen nào",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "CustomerAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Xin chào!",
+        "expected_output": {
+            "intents": "greeting",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Hi, mình đang tò mò về AI",
+        "expected_output": {
+            "intents": "chitchat",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi muốn biết bây giờ là mấy giờ",
+        "expected_output": {
+            "intents": "datetime",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tom tat hop dong lao dong cua toi",
+        "expected_output": {
+            "intents": "summary",
+            "classified_agent": "EmployeeAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "mày bị ngu à",
+        "expected_output": {
+            "intents": "toxic",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi muốn hỏi bác sĩ về triệu chứng đau đầu",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "MedicalAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tư vấn giúp tôi với ạaaaaaa",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "NaiveAgent",
+            "needs_rewrite": true
+        }
+    },
+    {
+        "query": "Mình cần biết về hồ sơ khách hàng Nguyễn Văn A",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "EmployeeAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "GeneStory có trụ sở ở đâu vậy?",
+        "expected_output": {
+            "intents": "retrieve",
+            "classified_agent": "CompanyAgent",
+            "needs_rewrite": false
+        }
+    },
+    {
+        "query": "Tôi đang phân vân giữa các bộ test, gợi ý giúp tôi nhé",
+        "expected_output": {
+            "intents": "product",
+            "classified_agent": "ProductAgent",
+            "needs_rewrite": false
+        }
+    },
+    {"query": "Tôi bị mất mật khẩu", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CustomerAgent", "needs_rewrite": false}},
+    {"query": "Tạo tài khoản online thế nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CustomerAgent", "needs_rewrite": false}},
+    {"query": "Tôi không biết cách truy cập vào tài khoản", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CustomerAgent", "needs_rewrite": false}},
+
+    {"query": "Hotline công ty là gì nhỉ", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "kênh facebook của công ty là gì?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "công ty này tên là gì?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "liên hệ công ty thế nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+
+    {"query": "Tôi có thể mua sản phẩm công ty ở đâu, như thế nào?", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Đặt mua sản phẩm của công ty ở đâu?", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Tôi gặp một vài vấn đề về sản phẩm", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+
+    {"query": "xét nghiệm gen với việc dùng vân tay thì khác gì nhau?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Xét nghiệm gene mang lại lợi ích gì?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Xét nghiệm gene cho tôi biết những gì", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Giải mã gen thì có tác dụng gì?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Giải mã gene kết quả liệu có đáng tin cậy không?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Hạn chế của việc gxét nghiệm gene là gì?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": true}},
+
+    {"query": "Thông tin về công ty Genestory", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Giới thiệu cho tôi về công ty", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Các gói sản phẩm và dịch vụ của Genestory có những gì", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "công ty bán cái gì", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Công ty thành lập năm bao nhiêu?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+
+    {"query": "Tại sao tôi phải giải mã gene ở công ty này?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Công ty này có gì uy tín?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Điều gì làm cho GeneStory khác biệt với các công ty khác trong cùng lĩnh vực?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Giữa công ty này và GeneSolution, tôi nên sử dụng dịch vụ của công ty nào hơn?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Công ty này so với Genetica thì thế nào? Tôi nên mua sản phẩm của công ty nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "liệt kê cho tôi các công ty làm về xét nghiệm gen", 
+     "expected_output": {"intents": "searchweb", "classified_agent": "NaiveAgent", "needs_rewrite": false}},
+    {"query": "Genetica có oke không?", 
+     "expected_output": {"intents": "general", "classified_agent": "NaiveAgent", "needs_rewrite": false}},
+    {"query": "công ty GeneStory và công ty GeneSolution khác gì nhau?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+
+    {"query": "GeneStory sử dụng những công nghệ nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "BOD GeneStory là ai", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Vũ Hà Văn và Nguyễn Đức Long là ai?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "ai là CEO của GeneStory?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "anh Đào Đức Minh là ai?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "biết Võ Sỹ Nam là ai không?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Vũ Quốc Hiển là ai", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "anh Vũ Minh Long là ai?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Làm sao để thanh toán dịch vụ của công ty", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Tôi trả bằng thẻ visa được không?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Tôi muốn hủy thanh toán dịch vụ", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Nếu tôi k muốn mua nữa được không? sau bao lâu tôi mới được hoàn tiền", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "dữ liệu của tôi lưu trữ ở đâu", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Thông tin của tôi được bảo vệ thế nào? Có được chia sẻ ra bên ngoài không?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Tính năng bảo mật của dịch vụ giải mã gen thế nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Thông tin dữ liệu của khách hàng được bảo vệ ra sao?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+    {"query": "Đối tác công ty này gồm những bên nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "CompanyAgent", "needs_rewrite": false}},
+
+    {"query": "Xét nghiệm gen thế nào?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "xét nghiệm bằng nước bọt có đủ chất lượng không nhỉ", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Có thai có làm được dịch vụ không?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "MedicalAgent", "needs_rewrite": false}},
+    {"query": "xét nghiệm ở nhà đc k nhỉ", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "GeneticAgent", "needs_rewrite": false}},
+    {"query": "Tôi muốn mua hàng của công ty này", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "Đợt này có chương trình khuyến mãi gì k?", 
+     "expected_output": {"intents": "retrieve", "classified_agent": "ProductAgent", "needs_rewrite": false}},
+    {"query": "công ty này có bán kem đánh răng không?", 
+     "expected_output": {"intents": "product", "classified_agent": "ProductAgent", "needs_rewrite": false}}
+
+]

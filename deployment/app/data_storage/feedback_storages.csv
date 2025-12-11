@@ -1,0 +1,4 @@
+interaction_id,user_type,feedback_type,rating,feedback_text,was_helpful,timestamp
+fc6e0234-d76b-5003-8011-fbb3556bf027,anonymous,like,5,,True,2025-08-13 13:21:23.796555
+c6e2c6b1-1e36-5b6b-af55-ebcaf4e1b987,anonymous,dislike,1,,False,2025-08-13 13:26:11.654116
+877b8e05-ebf7-54b4-acdf-47e00661941f,,,anonymous,like,5,,True,2025-08-13 13:44:07.704608

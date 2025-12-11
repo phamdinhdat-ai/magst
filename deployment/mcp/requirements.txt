@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-postgres
+sqlalchemy[asyncio]
+psycopg2-binary
+asyncpg
+mcp[fastmcp]
+python-dotenv
+transformers
+torch
+sentence-transformers
+fastapi
+uvicorn

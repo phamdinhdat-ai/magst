@@ -1,0 +1,126 @@
+Ten: Thuyên tắc huyết khối tĩnh mạch
+Context: Trait: Thuyên tắc huyết khối tĩnh mạch 
+Thuoc Nhom: Bệnh tim mạch 
+Goi y chuyen gia:Tham gia các hoạt động thể chất thường xuyên và tránh việc bất động trong một thời gian dài, đặc biệt trong các chuyến bay dài hoặc chuyến đi bằng ô tô.
+Cố gắng để đạt được và duy trì mức cân nặng khỏe mạnh thông qua một chế độ ăn uống cân bằng và thể dục thể thao thường xuyên.
+Uống nhiều nước, đặc biệt khi đi du lịch hoặc khi ít hoạt động nhằm ngăn ngừa việc mất nước và thúc đẩy hệ tuần hoàn.
+Nếu bạn đang hút thuốc, hãy tìm kiếm sự hỗ trợ và nguồn lực để bỏ thuốc vì nó có thể làm tăng nguy cơ đông máu.
+Nhận thức về các yếu tố nguy cơ đối với bệnh thuyên tắc huyết khối tĩnh mạch và trao đổi bất kỳ mối lo ngại nào với nhà cung cấp dịch vụ chăm sóc sức khỏe trong quá trình kiểm tra định kỳ. 
+Gioi thieu:Thuyên tắc huyết khối tĩnh mạch (VTE) đề cập đến sự hình thành cục máu đông trong tĩnh mạch, thường xảy ra ở các tĩnh mạch sâu ở chân (huyết khối tĩnh mạch sâu) hoặc di chuyển đến phổi (thuyên tắc phổi). Các yếu tố nguy cơ của VTE bao gồm béo phì, bất động kéo dài , phẫu thuật, chấn thương, ung thư, tránh thai bằng nội tiết tố, mang thai, rối loạn đông máu di truyền và tiền sử cá nhân hoặc gia đình bị đông máu.<br />Yếu tố di truyền có thể ảnh hưởng đáng kể đến tính nhạy cảm của một cá nhân với VTE, nhưng các yếu tố về lối sống và môi trường cũng đóng một vai trò quan trọng. Bằng cách hiểu và quản lý các yếu tố nguy cơ có thể thay đổi được thông qua việc điều chỉnh lối sống, tuân thủ dùng thuốc và chăm sóc y tế thường xuyên, các cá nhân có thể giảm nguy cơ mắc VTE và có khả năng ngăn ngừa các biến chứng đe dọa tới tính mạng.
+ 
+Ket luan:Số lượng biến thể được chúng tôi khảo sát để tạo ra kết quả báo cáo gen này là: 445,014 biến thể
+17% những người có chỉ số nguy cơ đa gen PRS cao nhất trong quần thể được đánh giá là có nguy cơ mắc Bệnh rung tâm nhĩ.
+Kết quả phân tích đa gen cho thấy nguy cơ mắc bệnh Rung tâm nhĩ của bạn ở mức 30.0%, đây là mức nan. (*)
+(*) Đây là mô hình dự đoán dựa trên dữ liệu nguồn gen của bạn. Các yếu tố khác chưa được đo lường trong báo cáo này như môi trường, lối sống, chế độ dinh dưỡng, rèn luyện thể chất... hoàn toàn có thể ảnh hưởng đến khả năng mắc bệnh.
+
+Name: Nhu cầu Vitamin E
+Context: Trait: Nhu cầu Vitamin E 
+Thuoc Nhom: Dinh dưỡng - Vitamin 
+Goi y chuyen gia:Vitamin E ở dạng dầu nặng và nhờn, ít thấm vào da. Nếu dùng thường xuyên sẽ gây bít tắc lỗ chân lông, dễ sinh mụn. Nếu đang có mụn hoặc da nhạy cảm thì thoa nhiều vitamin E dễ làm tình trạng mụn tồi tệ thêm. Vitamin E có thể dùng chung với dầu hạnh, quả bơ nghiền để tạo thành hỗn hợp mặt nạ; đắp dưỡng từ 15-20 phút. 
+Ngoài ra, vitamin E còn giúp dưỡng môi mềm mại, làm mặt nạ ủ tóc phục hồi.
+Vitamin E có thể được tìm thấy trong các loại thực phẩm như dầu thực vật (cọ, dừa, hướng dương, hạt nho), lúa mì, ngũ cốc, bơ lạc, rau mầm, cỏ đinh lăng, óc chó, hạt thông. Các loại rau, củ, quả (thực phẩm tự nhiên) giàu vitamin E có thể kết hợp các loại quả chứa nhiều vitamin C để tăng khả năng hấp thu vi chất này. Và khi có chế độ ăn hàng ngày giàu vitamin E, bạn có thể không cần bổ sung vitamin E tổng hợp.
+Vitamin E được dự trữ trong mô mỡ dưới da. Một năm nên bổ sung vitamin E liều 400IU/ngày trong vòng 15-30 ngày. Tham khảo ý kiến bác sĩ để được tư vấn về thời gian sử dụng tùy theo độ tuổi và tình trạng sức khỏe ở từng thời điểm. 
+Gioi thieu:Vitamin E là vi chất dinh dưỡng quan trọng đối với thị lực, máu, não và làn da.
+<b>Tình trạng da khô sạm, nhăn nheo, thiếu sức sống, tóc khô và dễ gãy rụng thường do thiếu vitamin E gây nên.</b><br /> Thường ngày, da tiếp xúc trực tiếp với ánh nắng Mặt Trời sẽ bị các tia cực tím hủy hoại, làm da trở nên đen sạm, mất tính đàn hồi, da chùng xuống khiến khuôn mặt trở nên già đi
+<b>Ngoài 30 tuổi, mức độ lão hóa da càng cao, các gốc tự do dư thừa sẽ khiến da nhanh chóng bị tổn thương.</b> <br />Do đó, trong hầu hết các sản phẩm chăm sóc da và tóc, nhà sản xuất thường đưa vitamin E vào trong thành phần. Bổ sung vitamin E là phương pháp hữu hiệu giúp cải thiện tình trạng da khô, giảm tiến trình lão hóa, mang đến vẻ đẹp trẻ trung, đặc biệt là với chị em phụ nữ.
+<b>Đối với cơ thể, vitamin E còn giúp ngăn chặn nguy cơ bệnh tim mạch, ung thư...</b> <br />Vì đặc tính chống oxy hóa nên vitamin E có thể bảo vệ tế bào của bạn chống lại tác động của các gốc tự do - thường được tạo ra khi cơ thể phân giải thức ăn hoặc tiếp xúc với khói thuốc, chất phóng xạ
+ 
+Ket luan:Kiểu gen của bạn có liên quan đến nhu cầu vitamin E ở mức bình thường. Hãy bảo đảm cơ thể được cung cấp đủ vitamin E để hàm lượng vi chất này không trở nên thiếu hụt.
+
+Name: Nồng độ canxi
+Context: Trait: Nồng độ canxi 
+Thuoc Nhom: Khoáng chất 
+Goi y chuyen gia:Ưu tiên thực phẩm giàu canxi: bạn nên xây dựng thực đơn chứa những thực phẩm giàu canxi như các sản phẩm từ sữa, rau xanh và thực phẩm bổ sung canxi. Ngoài ra bạn cũng nên bổ sung thêm vitamin D, sẽ giúp cơ thể hấp thụ canxi hiệu quả hơn.Dấu hiệu thiếu canxi: Bạn nên để ý nếu cơ thể có những hiện tượng của việc thiếu canxi như thường xuyên chuột rút, mất ngủ kéo dài, da khổ ... và biểu hiện của tụt canxi cấp tính như co giật, tê bì ở miệng, lưng, đầu ngón tay ngón chân. Tham khảo y tế: bạn hãy xét nghiệm máu để biết liệu cơ thể mình có thiếu canxi hay không, và bổ sung thực phẩm bổ sung chứa canxi theo lời khuyên của bác sĩ. Uống đủ nước: uống đủ nước để hỗ trợ sự hấp thụ canxi. Bạn nên uống tối thiểu 2 lít nước 1 ngày.Tập luyện thể thao: Tăng cường vận động và tập luyện thể thao thường xuyên sẽ giúp xương chắc khỏe hơn và tăng cường khả năng hấp thụ canxi. Tập thể dục kích thích quá trình tái tạo xương - quá trình loại bỏ mô xương cũ và thay thế bằng mô xương mới. Quá trình này sử dụng canxi, do đó tập thể dục thường xuyên sẽ đảm bảo canxi được sử dụng và hấp thụ hiệu quả. Ngoài ra, tập thể dục còn giúp ngăn ngừa các vấn đề về sỏi thận do canxi bằng cách khuyến khích đi tiểu thường xuyên và làm giảm nồng độ canxi trong nước tiểu. 
+Gioi thieu:Canxi là một khoáng chất quan trọng đóng vai trò cơ bản đối với sức khỏe của xương, chức năng cơ bắp và các quá trình sinh lý khác nhau. Các yếu tố di truyền có thể ảnh hưởng đến khuynh hướng của một cá nhân đối với mức canxi cao, trung bình hoặc thấp. Lựa chọn dinh dưỡng và lối sống hợp lý là điều cần thiết trong việc quản lý mức canxi và đảm bảo sức khỏe xương và tổng thể tối ưu. Bằng cách tuân theo các hướng dẫn chế độ ăn uống và tham khảo ý kiến của các chuyên gia chăm sóc sức khỏe khi cần thiết, các cá nhân có thể giải quyết khuynh hướng di truyền của họ đối với mức canxi và duy trì sức khỏe của họ.
+ 
+Ket luan:Bạn có xu hướng hấp thụ canxi ít hơn những người khác khi sử dụng cùng một lượng canxi. Điều này có thể dẫn đến thiếu hụt canxi, loãng xương, chuột rút và các vấn đề sức khoẻ khác.
+
+
+Name: Mụn trứng cá
+Context: Trait: Mụn trứng cá 
+Thuoc Nhom: Sức khỏe làn da 
+Goi y chuyen gia:Móng tay dài là nơi trú ngụ của vi khuẩn, bụi bẩn. Thói quen sờ tay lên mặt, vệ sinh kém điện thoại, gối ngủ, chăn mền cũng gián tiếp gây mụn viêm trên da.
+Đặc biệt, rửa tay trước khi thoa kem, tẩy tế bào chết hoặc trang điểm. Không chà xát da tại các vị trí đang nổi mụn, điều này sẽ khiến phần nhiễm trùng bị đẩy vào sâu trong da hơn, gây tắc nghẽn, sưng đỏ và viêm đau nghiêm trọng.
+Đặc biệt vào khung giờ nắng gắt vì có thể kích thích da sản xuất nhiều bã nhờn hơn và khiến mụn hình thành. 
+Chế độ ăn uống nhiều dầu mỡ, đường, thực phẩm chiên, giàu carbohydrate như bánh mì, bánh mì tròn và khoai tây chiên, có thể làm cho tình trạng mụn trứng cá trở nên nghiêm trọng hơn. 
+Ngoài ra, táo bón là hiện tượng thường đi kèm với mụn trứng cá làm giảm sức đề kháng, tăng tình trạng mụn viêm, khiến quá trình điều trị trở nên khó khăn. Vì vậy, cần ăn thật nhiều rau củ tươi (chế biến nguyên sợi) để bổ sung chất xơ không tan, cải thiện hệ vi sinh đường ruột, nhuận tràng, góp phần tống độc tố ra khỏi cơ thể, cải thiện tình trạng táo bón. 
+11 giờ đêm đến 3 giờ sáng là thời gian để gan và túi mật xử lý chất thải. Thức khuya sẽ khiến gan làm việc kém hiệu quả, đào thải độc tố kém, dễ phát sinh mụn để bài tiết độc tố trên da. 
+Làn da bẩn là môi trường thuận lợi để vi khuẩn phát triển và khiến mụn viêm trầm trọng hơn. Vì vậy, hãy chọn sữa rửa mặt phù hợp với làn da của bạn để làm sạch và kiềm bớt dầu thừa trên bề mặt. Tuy nhiên, chỉ nên dùng sản phẩm làm sạch tối đa 2 lần/ngày để tránh làm mất cân bằng pH trên da, tạo điều kiện cho vi khuẩn phát triển. Ngoài ra, không nên uống các loại thuốc kiềm dầu trừ trường hợp tiết dầu quá nặng. 
+Dậy thì, thai kỳ, tiền mãn kinh hay việc bổ sung nội tiết tố có thể khiến tuyến bã nhờn hoạt động mạnh hơn, kết hợp với tình trạng vệ sinh bề mặt kém và cạy nặn hình thành mụn viêm. Vì vậy, cần lưu ý yếu tố này để lắng nghe các tín hiệu khó chịu của cơ thể, kịp thời đi thăm khám bác sĩ da liễu, chủ động phòng ngừa mụn.
+Quan sát màu nước tiểu (vàng nhạt) và s 
+Gioi thieu:Mụn trứng cá xuất hiện khi các lỗ nhỏ trên da, được gọi là nang lông, bị tắc nghẽn do tuyến dầu chứa bã nhờn, kết hợp với vi khuẩn từ môi trường và thói quen (cạy nặn) làm viêm da. Mụn trứng cá thường xuất hiện trên mặt, trán, ngực, lưng trên và vai của bạn vì những vùng da này có nhiều tuyến dầu nhất, tiết ra bã nhờn. Mụn thậm chí còn xuất hiện trên da đầu do trong các nang tóc cũng có các tuyến dầu.
+Nếu thành nang phình ra, chứa mụn thì sẽ tạo ra mụn đầu trắng. Ngược lại, nếu nang lông hở sẽ gây ra mụn đầu đen. Mụn đầu đen có thể trông giống như bụi bẩn bị mắc kẹt trong lỗ chân lông nhưng thật ra lỗ chân lông bị tắc nghẽn do vi khuẩn và dầu, chuyển sang màu nâu khi tiếp xúc với không khí.
+Mụn trứng cá sẽ chuyển sang mụn nhọt là những đốm đỏ nổi lên với một khối trung tâm màu trắng hình thành khi các nang lông bị tắc nghẽn do viêm hoặc nhiễm vi khuẩn. Sự tắc nghẽn và viêm phát triển sâu vào bên trong nang lông tạo ra các khối u nang dưới bề mặt da. Tình trạng viêm nhiễm tại nang lông nếu không được kiểm soát tốt và lan rộng sẽ hình thành các khối u cục trứng cá.
+ 
+Ket luan:Kiểu gen của bạn có liên quan tình trạng phát triển mụn trứng cá, viêm da mạn tính ở mức thấp.
+
+
+Name: Đột quỵ nhồi máu não
+Context: Trait: Đột quỵ nhồi máu não 
+Thuoc Nhom: Bệnh tim mạch 
+Goi y chuyen gia:Áp dụng chế độ ăn uống cân bằng giàu trái cây, rau củ, ngũ cốc nguyên hạt và đạm nạc. Tránh ăn quá nhiều muối, đường và chất béo bão hòa. Tham gia hoạt động thể chất thường xuyên và duy trì cân nặng khỏe mạnh.
+Giữ cho huyết áp, lượng đường trong máu và mức cholesterol trong phạm vi được khuyến nghị. Theo dõi và quản lý các tình trạng mãn tính như tiểu đường và tăng huyết áp dưới sự hướng dẫn của chuyên gia.
+Nếu bạn đang hút thuốc, hãy tìm kiếm sự hỗ trợ và các nguồn lực để từ bỏ việc hút thuốc do nó làm tăng đáng kể nguy cơ đột quỵ do thiếu máu cục bộ. 
+Lên lịch khám sức khỏe định kỳ để đánh giá sức khỏe tổng thể và phát hiện sớm các yếu tố nguy cơ tiềm ẩn. 
+Gioi thieu:Đột quỵ nhồi máu não xảy ra khi mạch cung cấp máu cho não bị tắc nghẽn, dẫn tới thiếu hụt oxy và các chất dinh dưỡng tới mô não. Các yếu tố nguy cơ cho thiếu máu cục bộ bao gồm: huyết áp cao, tiểu đường, cholesterol cao, hút thuốc, béo phì, bệnh rung tâm nhĩ, bệnh động mạch cảnh và có tiền sử đột quỵ hoặc cơn thiếu máu cục bộ thoáng qua (TIAs).<br />Các yếu tố di truyền cũng góp phần làm cho một cá nhân dễ bị đột quỵ, nhưng lối sống và yếu tố môi trường đóng một vai trò quan trọng trong việc phòng ngừa đột quỵ. Bằng cách quản lý các yếu tố nguy cơ có thể thay đổi được như sửa đổi lối sống, tuân thủ việc điều trị và thực hiện chăm sóc y tế thường xuyên, các cá nhân có thể giảm nguy cơ đột quỵ nhồi máu não và cải thiện sức khỏe tim mạch tổng thể.
+ 
+Ket luan:Số lượng biến thể được chúng tôi khảo sát để tạo ra kết quả báo cáo gen này là: 445,014 biến thể
+17% những người có chỉ số nguy cơ đa gen PRS cao nhất trong quần thể được đánh giá là có nguy cơ mắc Bệnh rung tâm nhĩ.
+Kết quả phân tích đa gen cho thấy nguy cơ mắc bệnh Rung tâm nhĩ của bạn ở mức 18.0%, đây là mức nan. (*)
+(*) Đây là mô hình dự đoán dựa trên dữ liệu nguồn gen của bạn. Các yếu tố khác chưa được đo lường trong báo cáo này như môi trường, lối sống, chế độ dinh dưỡng, rèn luyện thể chất... hoàn toàn có thể ảnh hưởng đến khả năng mắc bệnh.
+
+
+Name: Độ đàn hồi da
+Context: Trait: Độ đàn hồi da 
+Thuoc Nhom: Lão hóa da 
+Goi y chuyen gia:Sử dụng retinoids kê toa có thể giảm và đảo ngược tác động lão hóa ảnh hưởng đến da.
+ Sử dụng dưỡng chất dưới dạng serum tinh chất hoặc kem có chứa thành phần axit hyaluronic có thể giúp da lấy lại độ đàn hồi tự nhiên.
+ Uống các viên uống bổ sung chứa axit hyaluronic cũng có thể có lợi.
+Đây là dòng kem không kê đơn, phổ biến trên thị trường mỹ phẩm, có thể dùng bôi trực tiếp lên da, hỗ trợ quá trình sản xuất elastin, từ đó lấy lại độ đàn hồi của da, hỗ trợ tái tạo, phục hồi do sẹo rạn, sẹo bỏng. Kem dưỡng cho vùng mắt thường chứa vitamin K để giảm quầng thâm, vết bầm tím. Ngoài ra, khi bổ sung vitamin K qua thực phẩm còn hỗ trợ tăng sinh elastin trong phổi, mạch máu và các cơ quan nội tạng khác. 
+Một nghiên cứu cho thấy lượng flavonoids trong hạt cacao, một hợp chất có trong chocolate, giúp tăng độ đàn hồi cho da mặt và giảm nếp nhăn. Vì vậy, cân nhắc dùng cacao hàng ngày để tăng cường lưu thông máu, hỗ trợ phòng ngừa lão hóa sớm. Chocolate là sản phẩm từ hạt cacao với đường, sữa và các phụ gia khác, dễ gây "nghiện" và tăng cân. 
+Đảm bảo trang phục, kem chống nắng và hạn chế phơi nắng trong thời gian dài, vào những khung giờ có cường độ tia UV cao, để tránh làm đứt gãy elastin và collagen trên da, đặc biệt nếu bạn có làn da trắng.
+Đường đơn (glusose, fructose, galactose) có nhiều trong quả tươi, thực phẩm đã qua chế biến có bổ sung chất tạo ngọt. Các phân tử đường đi vào máu, đến các mô (mô da), làm tăng nồng độ đường đơn quanh các sợi elastin và collagen, gây suy thoái và phá vỡ.
+Theo thời gian, làn da có xu hướng mất dẫn độ đàn hồi. Vì vậy ở độ tuổi càng lớn càng thận trọng để lựa chọn các biện pháp tăng sinh collagen, elastin tự thân và an toàn. Tại Vinmec, phương pháp trẻ hoá da bằng FGF (Fibroblast Growth Factor) giúp kích hoạt fibroblast, một cytokine do tiểu cầu hoặc tế bào gốc dây rốn tiết ra, từ đó gia tăng các chất nền cấu tạo da (như collagen, elastin) hỗ trợ chữa lành vết thương, tái tạo da, cải thiện sẹo và các mạch máu nuôi da. Tham khảo phương pháp nà 
+Gioi thieu:Nếu collagen là chất nền giúp da căng chắc thì phân tử elastin lại có đặc tính dẻo dai, đàn hồi như sợi dây thun bám xung quanh collagen. Nhờ tính đàn hồi mà làn da không bị chảy xệ, nhăn nheo. Tỷ lệ elastin thấp hơn collagen và dễ phá hủy hơn, khả năng sinh ra ít hơn. Việc tiêm botox sẽ làm da tăng sinh collagen nhanh chóng, giảm nếp nhăn, nhưng thiếu elastin nên da căng cứng, thiếu độ mềm mại, đàn hồi.
+Sự đàn hồi của da do gen tác động lên số lượng và chất lượng elastin, bên cạnh nhiều tác nhân khác. Elastin là phân tử protein được sinh ra bởi nguyên bào sợi, nằm giữa trung bì và hạ bì da. FGF (fibroblast growth factor) có nhiều trong EV giúp kích hoạt nguyên bào sợi tăng sinh và làm việc. Đây là phương pháp tăng sinh collagen cũng như elastin theo cách an toàn và sinh lý.
+ 
+Ket luan:Kiểu gen của bạn có liên quan đến độ đàn hồi của da ở mức bình thường.
+Đây là lợi thế để sở hữu làn da săn chắc, đầy sức sống.
+
+
+Name: Chu vi bắp tay
+Context: Trait: Chu vi bắp tay 
+Thuoc Nhom: Thể chất - cơ bắp 
+Goi y chuyen gia:Tập trung vào thể lực tổng thể: Mặc dù khuynh hướng di truyền đối với chu vi bắp tay có thể thấp hơn, hãy tập trung vào thể lực tổng thể và sức mạnh chức năng. Kết hợp các bài tập toàn thân như tập luyện trọng lượng cơ thể, yoga và tập luyện chức năng để cải thiện tình trạng thể chất tổng thể.Chế độ ăn uống cân bằng: Đảm bảo rằng chế độ ăn uống được làm tròn và cung cấp các chất dinh dưỡng thiết yếu cho sức khỏe tổng thể. Kết hợp nhiều trái cây, rau và ngũ cốc nguyên hạt.Tham khảo ý kiến một chuyên gia thể dục: Cân nhắc làm việc với một huấn luyện viên thể dục, người có thể điều chỉnh kế hoạch tập luyện theo nhu cầu và mục tiêu cụ thể, ngay cả với khuynh hướng di truyền thấp hơn đối với chu vi bắp tay. 
+Gioi thieu:Chu vi bắp tay bị ảnh hưởng bởi cả yếu tố di truyền và lựa chọn lối sống. Mặc dù di truyền có thể ảnh hưởng đến việc mỗi người có chu vi cánh tay lớn hoặc nhỏ, nhưng việc lựa chọn lối sống và tập thể dục sẽ tác động đáng kể đến sức mạnh thực tế và sự phát triển cơ bắp. Chu vi bắp tay còn được sử dụng để theo dõi tình trạng dinh dưỡng của bệnh nhân trong các tình huống khẩn cấp và được khuyến nghị để đánh giá tình trạng suy dinh dưỡng cấp tính ở người lớn. Các bài tập có định hướng, dinh dưỡng hợp lý và thể lực tổng thể là những yếu tố chính trong việc tối ưu hóa chu vi cánh tay, bất kể khuynh hướng di truyền.
+ 
+Ket luan:Những người có khuynh hướng di truyền thấp đối với chu vi bắp tay ít có khả năng sở hữu bắp tay lớn, điều này có thể dẫn đến giảm nhẹ sức mạnh cánh tay và khối lượng cơ bắp.
+
+
+Name: Tiểu đường type 2
+Context: Trait: Tiểu đường type 2 
+Thuoc Nhom: Bệnh liên quan đến chuyển hóa 
+Goi y chuyen gia:Khống chế lượng muối dưới 5g/ngày (2,000 mg Na/ngày).Hạn chế các thực phẩm chế biến sẵn chứa nhiều muối: Dưa muối, cà muối, mì tôm, xúc xích...Hạn chế cho thêm nước mắm, gia vị khi ăn uống, có thể pha loãng nước mắm, nước tương, chao… khi chấm.Người đã tăng huyết áp và suy thận nên hỏi ý kiến bác sĩ hoặc chuyên gia dinh dưỡng về chế độ ăn cụ thể.
+Người thừa cân, béo phì cần giảm cân. Mục tiêu là giảm 5-10% trọng lượng cơ thể trong vòng 3-6 tháng (giảm từng giai đoạn, không giảm đột ngột).
+Tính toán cân nặng và vòng eo tối đa (lý tưởng) để bạn phòng ngừa bệnh Tiểu đường.
+Thức uống có nồng độ cồn cao có thể làm hạ đường huyết. Mỗi ngày chỉ nên uống dưới 120 ml rượu vang, 300 ml bia hoặc 30ml rượu mạnh.
+Có người thân đời thứ nhất (bố mẹ, anh chị em ruột, con đẻ) bị Tiểu đường.Tiền sử bệnh tim mạch do xơ vữa động mạch.Tăng huyết áp (HA ≥ 140/90 mmHg hoặc đang điều trị THA) - HDL cholesterol 250mg/dL (2,8mmol/L).Phụ nữ bị hội chứng buồng trứng đa năng.Người ít hoạt động thể lực.Người có các tình trạng lâm sàng khác liên quan với kháng insulin (như dấu gai đen acanthosis nigricans).
+3. Phụ nữ đã được chẩn đoán Tiểu đường thai kỳ cần theo dõi lâu dài, xét nghiệm ít nhất sau mỗi 3 năm.
+4. Nếu các kết quả bình thường, xét nghiệm sẽ được làm lại trong vòng 1- 3 năm sau hoặc thời gian ngắn hơn, tùy theo kết quả ban đầu và các yếu tố nguy cơ. 
+Gioi thieu:Theo dữ liệu của Liên đoàn Đái tháo đường Quốc tế (IDF) năm 2019 trên người trưởng thành (từ 20 đến 79 tuổi).<br /><ul class="t2d__list-2-grid"><li>Cứ 11 người có 1 người phải sống chung với bệnh Đái tháo đường. Chính xác là có 463 triệu người trên toàn cầu mắc ĐTĐ.</li><li>Gần 50% bệnh nhân ĐTĐ không được chẩn đoán và nhận biết tình trạng của mình.</li><li>Tại Việt Nam, ước tính khoảng 7.1% người trưởng thành mắc bệnh Tiểu đường, theo thống kê của Bộ Y tế năm 2021.</li><li>Ước tính, > 4 triệu người đã tử vong vì các nguyên nhân liên quan đến ĐTĐ trong năm 2019.</li></ul>
+ 
+Ket luan:Nguy cơ mắc bệnh Tiểu đường của bạn được phân tích và dự đoán dựa trên chỉ số nguy cơ đa gen (PRS - Polygenic Risk Score), thông qua việc khảo sát hàng trăm đến hàng nghìn biến thể di truyền trong toàn bộ hệ gen. 183.695 biến thể được sử dụng trong mô hình tính toán PRS cho nguy cơ bệnh Tiểu đường của bạn. Mô hình này đã được kiểm định trên 2.600 người Việt Nam (bao gồm 1.000 mẫu bệnh Tiểu đường và 1.600 mẫu người khoẻ đối chứng).
+Kết quả phân tích gen cho thấy bạn có nguy cơ mắc Tiểu đường type 2 cao hơn 25.0% người trong quần thể người Việt. Điều này có nghĩa là nguy cơ của bạn Nguy cơ thấp.
+Chỉ số PRS cho thấy nguy cơ mắc bệnh Tiểu đường type 2 (do yếu tố gen di truyền) của bạn ở mức Nguy cơ thấp. Theo độ tuổi hiện tại, nguy cơ của bạn có thể tăng gấp 1.36 lần trong 10 năm tới.
+Chỉ số PRS cho thấy nguy cơ phát triển bệnh Tiểu đường type 2 (do yếu tố gen di truyền) của bạn ở mức Nguy cơ thấp. Khi vượt qua ngưỡng 70 tuổi, nguy cơ mắc bệnh sẽ không đổi, không tăng theo tuổi tác.
+
+
+Name: Rạn da
+Context: Trait: Rạn da 
+Thuoc Nhom: Lão hóa da 
+Goi y chuyen gia:Xem xét các kết quả (giải mã gen) khác liên quan đến rạn da như suy thoái collagen, độ đàn hồi (elastin), nhu cầu vitamin C, vitamin K. Vì đây là các yếu tố tác động qua lại với nguy cơ rạn da. Từ đó, bổ sung các thực phẩm giàu protein, vitamin C, vitamin K (cam, bưởi, đào, uống sữa…) để cơ thể sản xuất collagen và elastin bù lại.
+Các sản phẩm có chứa tinh chất rau má (như dầu thảo dược rau má, kem bôi rạn da) hoặc các dòng mỹ phẩm chứa axit hyaluronic (như serum, lotion, booster) có thể ngăn ngừa rạn da, dưỡng ẩm, giúp da căng mịn tự nhiên, tăng cường sản sinh collagen và xây dựng mô da.
+Khi tăng cân đột ngột, vùng da bụng, ngực, mông, đùi hoặc bắp chân là những nơi dễ bị rạn nhất. Các vết rạn ban đầu màu tím, đỏ, hay trắng tùy vào cơ địa mỗi người; tiếp đó chuyển thành màu xám, đen hoặc đỏ sau khi sinh. Vì vậy, cần duy trì cân nặng, không nên để tăng cân đột ngột. 
+Gioi thieu:Giống như các loại sẹo khác, vết rạn da sẽ tồn tại vĩnh viễn. Tùy cơ địa và tình trạng da của mỗi người (ở mỗi giai đoạn), mức độ rạn sẽ xảy ra ít hay nhiều. Việc hiểu rõ làn da từ gen sẽ giúp chăm sóc da chủ động, ngăn ngừa và hạn chế rạn da trước khi tiến trình đó diễn ra. Ngoài ra sau khi rạn da, việc điều trị nếu được cá nhân hóa cho mỗi làn da sẽ giúp làm mờ vết rạn hiệu quả.
+ 
+Ket luan:Kiểu gen của bạn có liên quan đến khuynh hướng rạn da ở mức bình thường.
