@@ -1,0 +1,2 @@
+# magst
+MultAgent - MCP
